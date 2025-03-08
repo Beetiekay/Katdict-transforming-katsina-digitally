@@ -23,6 +23,7 @@ export default {
      'seagreen':'#8fbc8f',
      'green':'#2e9d17',
      'white':'#fffafa',
+     'whitegray':'#ffffff',
     },
 
 

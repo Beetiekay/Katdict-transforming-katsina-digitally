@@ -14,7 +14,7 @@ const Footer = () => {
    }) 
   return (
     <div className='bg-green w-[100%] py-4 lg:px-16 md:px-16 px-5 relative overflow-hidden'>
-           <img src={bg} className='absolute w-full top-0 opacity-35 z-20 lg:flex hidden'/>
+           <img src={bg} className='absolute w-full top-0 opacity-35 z-20'/>
         <div className='grid lg:grid-cols-2 grid-cols-1  gap-10'>
             <div className=''>
 
@@ -94,7 +94,7 @@ const Footer = () => {
               <div className='lg:mb-0 md:mb-2 mb-3'>
                 <div data-aos="zoom-in" className='bg-white w-full h-40 rounded-2xl shadow-md overflow-hidden'><Map/></div>
               </div>
-                <p  className='lg:text-lg md:text-lg text-sm lg:hidden flex text-white'>Copyright@ 2025 <span className='text-black font-semibold'> KATDICT</span> AllRights Reserved</p>
+                <p  className='lg:text-lg md:text-lg text-sm lg:hidden flex text-white'>Copyright@ 2025 <span className='text-black font-semibold'>  KATDICT</span>  AllRights Reserved</p>
             </div>
         </div>
     </div>

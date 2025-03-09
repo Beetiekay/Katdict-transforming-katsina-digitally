@@ -13,7 +13,7 @@ const Welcomeadd = () => {
     <div className='w-[100%] min-h-[100vh]'>
       <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4'>
         <div className='relative'>
-          <img src={DG} className='opacity-90'/>]
+          <img src={DG} className='opacity-90'/>
           <div className='absolute lg:top-72 md:top-32 top-20 z-10 flex justify-center w-full'>
              <Video/>
           </div>

@@ -3,6 +3,7 @@ import Navigation from '../../components/Navigation'
 import bg from "../../assets/bg.jpg"
 import Tab from './Tab'
 import Button from '../../components/Button'
+import Footer from '../../components/Footer'
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
     </div>
 
      <Tab/> 
+     <Footer/>
     </div>
   )
 }

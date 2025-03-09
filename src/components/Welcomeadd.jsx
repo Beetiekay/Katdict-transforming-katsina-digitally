@@ -36,7 +36,7 @@ const Welcomeadd = () => {
                <span data-aos="fade-up" className='text-green text-xl font-semibold'>At KATDICT,</span> we don’t just dream of a digital future; we craft it. We are committed to shaping the very essence of Katsina’s technological evolution, diving into a realm where innovation knows no bounds and accessibility is the key to unlocking solutions for the challenges we all face.
                </p>
             </div>
-            <p data-aos="fade-right" className=' lg:text-2xl md:text-xl font-semibold mb-6'><span className='text-green'>- Naufal Ahmad</span> Director General</p>
+            <p data-aos="fade-up" className=' lg:text-2xl md:text-xl font-semibold mb-6'><span className='text-green'>- Naufal Ahmad</span> Director General</p>
 
             <Button label={"Read More"}/>
           </div>

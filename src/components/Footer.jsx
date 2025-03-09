@@ -14,8 +14,8 @@ const Footer = () => {
    }) 
   return (
     <div className='bg-green w-[100%] py-4 lg:px-16 md:px-16 px-5 relative overflow-hidden'>
-           <img src={bg} className='absolute w-full top-0 opacity-35 z-20'/>
-        <div className='grid lg:grid-cols-2 grid-cols-1  gap-10'>
+           <img src={bg} className='absolute w-full h-[100vh] top-0 opacity-35'/>
+        <div className='grid lg:grid-cols-2 grid-cols-1 relative  gap-10'>
             <div className=''>
 
                 <div className='flex justify-between flex-wrap mb-4 py-2 border-b-2 border-white'>

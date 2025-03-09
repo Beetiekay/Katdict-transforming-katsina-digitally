@@ -52,7 +52,7 @@ const Navigation = () => {
           </div>
         </div>
 
-        <div className='lg:flex md:flex block lg:justify-around md:justify-start items-center relative lg:px-0 md:px-16 px-2 lg:gap-0 md:gap-0 gap-2
+        <div className='lg:flex md:flex block lg:justify-around md:justify-start items-center relative lg:px-0 md:px-16 px-0 lg:gap-0 md:gap-0 gap-2
         '>
          <div className='lg:mb-0 md:mb-0 mb-2'><Logo/></div>
         
@@ -60,7 +60,7 @@ const Navigation = () => {
         <ul className=' gap-2 text-lg hidden md:hidden lg:flex text-white opacity-80'>
             <Link to={"/"} className={Links('home')}><li>Home</li></Link>
             <Link to={"/about"} className={Links('about')}><li>About</li></Link>
-            <Link className={Links('what we do')}><li>Our focus areas</li></Link>
+            <Link className={Links('what we do')}><li>Our Focus Areas</li></Link>
             <Link className={Links('update')}><li>Update</li></Link>
             <Link to={"/contact"} className={Links('contact')}><li >Contact us</li></Link>
         </ul>
@@ -74,7 +74,7 @@ const Navigation = () => {
 
 
      {/* mobile hamburger menu */}
-      <div  className='lg:hidden md:flex flex justify-end lg:px-2 md:px-2 px-0 w-[100%] bg-green overflow-visible absolute'>
+      <div className='lg:hidden md:flex flex justify-end lg:px-2 md:px-2 px-0 w-[100%] bg-green overflow-visible absolute'>
           <input type='checkbox' className='peer transition-transform z-40 w-8 h-8 absolute outline-none opacity-0 cursor-pointer lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-6'/>
           <div data-aos="zoom-in" className='absolute text-[2.2rem] md:text-[3rem] text-white peer-checked:hidden lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'><MdOutlineMenu /></div>
           <div  className='absolute text-[2.2rem] md:text-[3rem] text-white hidden peer-checked:flex lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-6'><MdOutlineClose/></div>

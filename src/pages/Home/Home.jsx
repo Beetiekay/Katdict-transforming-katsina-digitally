@@ -16,10 +16,10 @@ const Home = () => {
 
   return (
     <div className='w-[100%]'>
-    <div className='w-full min-h-[100vh] bg-green bg-opacity-30 overflow-x-hidden'>
+    <div className='w-full lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh] bg-green bg-opacity-30 overflow-x-hidden'>
      <img src={bg} className='w-full h-full absolute top-0 object-cover opacity-15'/>
       <div>
-         <div className='relative z-10'><Navigation/></div>
+         <div className='absolute z-20'><Navigation/></div>
          <div className='min-h-[100vh] w-[100%] flex justify-center items-center relative'>
           <div>
            <h1 data-aos="fade-up" className='lg:text-6xl md:text-6xl text-4xl text-center font-semibold mb-4'>Crafting Tomorrow's <span className='text-green'>Technologies</span> Today!</h1> 
@@ -32,10 +32,11 @@ const Home = () => {
           </div>
          </div>
       </div> 
+      <Tab/> 
+     <Footer/>
     </div>
 
-     <Tab/> 
-     <Footer/>
+     
     </div>
   )
 }

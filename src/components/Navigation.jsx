@@ -4,6 +4,8 @@ import { Link, useLocation } from 'react-router-dom'
 import Input from './Input'
 import {FaFacebookF, FaInstagram, FaSearch, FaSearchLocation, FaTwitter} from "react-icons/fa"
 import Logo from './Logo'
+import Mobilenav from './Mobilenav'
+import { MdOutlineClose, MdOutlineMenu } from 'react-icons/md'
 
 const Navigation = () => {
     let {pathname} = useLocation()
@@ -23,8 +25,8 @@ const Navigation = () => {
       return classes
    }
   return (
-    <div className='w-full backdrop-blur-2xl bg-green bg-opacity-55 border-b-2 duration-700 ease-in-out transition-all hover:bg-green hover:bg-opacity-95 border-seagreen py-6  overflow-hidden rounded-b-lg fixed'>
-        <img src={bg} className='absolute w-full top-0 opacity-35'/>
+    <div className='w-full backdrop-blur-2xl bg-green lg:overflow-hidden md:overflow-visible overflow-visible bg-opacity-55 border-b-2 duration-700 ease-in-out transition-all hover:bg-green hover:bg-opacity-100 border-seagreen py-6 rounded-b-lg fixed'>
+        <img src={bg} className='absolute w-full top-0 opacity-35 z-20 lg:flex hidden'/>
 
         <div className=' text-white lg:flex md:flex hidden justify-between relative py-4 px-20'>
           <div className=' flex  items-center gap-4 w-[80%]'>
@@ -42,9 +44,9 @@ const Navigation = () => {
           </div>
         </div>
 
-        <div className='flex justify-around items-center relative lg:px-0 md:px-0 px-2 lg:gap-0 md:gap-0 gap-2
+        <div className='lg:flex md:flex block lg:justify-around md:justify-start items-center relative lg:px-0 md:px-16 px-2 lg:gap-0 md:gap-0 gap-2
         '>
-         <div><Logo/></div>
+         <div className='lg:mb-0 md:mb-0 mb-2'><Logo/></div>
         
 
         <ul className=' gap-2 text-lg hidden md:hidden lg:flex text-white opacity-80'>
@@ -54,11 +56,25 @@ const Navigation = () => {
             <Link className={Links('update')}><li>Update</li></Link>
             <Link to={"/contact"} className={Links('contact')}><li >Contact us</li></Link>
         </ul>
-        <div className='bg-white px-2 rounded-md flex items-center gap-2'>
+
+        <div className='bg-white px-2 rounded-md lg:flex hidden items-center gap-2'>
             <Input type="text" placeholder=" search..."/>
             <FaSearch size={20} className='text-green'/>
         </div>
+
         </div>
+
+
+     {/* mobile hamburger menu */}
+     <div className='lg:hidden md:flex flex justify-end lg:px-2 md:px-2 px-0 w-full bg-green overflow-visible absolute'>
+          <input type='checkbox' className='peer transition-transform z-40 w-10 h-10 absolute outline-none opacity-0 cursor-pointer lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'/>
+          <div className='absolute text-[2.2rem] md:text-[3rem] text-white peer-checked:hidden lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'><MdOutlineMenu /></div>
+          <div className='absolute text-[2.2rem] md:text-[3rem] text-white hidden peer-checked:flex lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'><MdOutlineClose/></div>
+          <div className='w-[100%] peer-checked:flex hidden bg-opacity-90 reltaive left-0 right-0 top-0'>
+          <Mobilenav/>
+          </div>
+     </div>
+
     </div>
   )
 }

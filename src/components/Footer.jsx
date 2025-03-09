@@ -24,8 +24,8 @@ const Footer = () => {
               
                  {/* usefull Links */}
                  <div className='flex justify-between flex-wrap mb-4 py-2 border-b-2 border-white'>
-                 <div>
-                   <h1 className='text-xl text-white'>Support Links</h1>
+                 <div className='lg:mb-0 md:mb-0 mb-2'>
+                   <h1 className='text-xl text-white mb-2'>Support Links</h1>
                    <p className='text-white opacity-80 hover:translate-x-3 duration-700 cursor-pointer'>Get Support</p>
                    <p className='text-white opacity-80 hover:translate-x-3 duration-700 cursor-pointer'>Help & FAQ</p>
                    <p className='text-white opacity-80 hover:translate-x-3 duration-700 cursor-pointer'>Solutions</p>
@@ -34,8 +34,8 @@ const Footer = () => {
                    <p className='text-white opacity-80 hover:translate-x-3 duration-700 cursor-pointer'>Terms & Service</p>
                  </div>
 
-                 <div>
-                   <h1 className='text-xl text-white'>Katdict Services</h1>
+                 <div className='lg:mb-0 md:mb-0 mb-2'>
+                   <h1 className='text-xl text-white mb-2'>Katdict Services</h1>
                      <p className='text-white opacity-80 hover:translate-x-3 duration-700 cursor-pointer'>ICT Governance & Strategy</p>
                      <p className='text-white opacity-80 hover:translate-x-3 duration-700 cursor-pointer'>Needs Assessment & Procurement</p>
                      <p className='text-white opacity-80 hover:translate-x-3 duration-700 cursor-pointer'>Capacity Building & Training</p>
@@ -44,7 +44,7 @@ const Footer = () => {
                      <p className='text-white opacity-80 hover:translate-x-3 duration-700 cursor-pointer'>Reporting & Advocacy</p>
                  </div>
                  </div>
-                 <p className='text-lg text-white'>Copyright@ 2025 <span className='text-black font-semibold'>KATDICT</span> AllRights Reserved</p>
+                 <p className='lg:text-lg md:text-lg text-sm lg:flex hidden text-white'>Copyright@ 2025 <span className='text-black font-semibold'>KATDICT</span> AllRights Reserved</p>
               </div>
 
             <div >
@@ -82,9 +82,10 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className=''>
+              <div className='lg:mb-0 md:mb-2 mb-3'>
                 <div className='bg-white w-full h-40 rounded-2xl shadow-md overflow-hidden'><Map/></div>
               </div>
+                <p className='lg:text-lg md:text-lg text-sm lg:hidden flex text-white'>Copyright@ 2025 <span className='text-black font-semibold'> KATDICT</span> AllRights Reserved</p>
             </div>
         </div>
     </div>

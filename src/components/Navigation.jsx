@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import bg from "../assets/layerbg.png"
 import { Link, useLocation } from 'react-router-dom'
 import Input from './Input'
@@ -7,7 +7,15 @@ import Logo from './Logo'
 import Mobilenav from './Mobilenav'
 import { MdOutlineClose, MdOutlineMenu } from 'react-icons/md'
 
+//aos
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Navigation = () => {
+  useEffect(() => {
+    AOS.init({duration:1200})
+ }) 
+
     let {pathname} = useLocation()
    let subpage = pathname.split('/')?.[1]
 
@@ -66,11 +74,11 @@ const Navigation = () => {
 
 
      {/* mobile hamburger menu */}
-     <div className='lg:hidden md:flex flex justify-end lg:px-2 md:px-2 px-0 w-full bg-green overflow-visible absolute'>
+      <div  className='lg:hidden md:flex flex justify-end lg:px-2 md:px-2 px-0 w-full bg-green overflow-visible absolute'>
           <input type='checkbox' className='peer transition-transform z-40 w-10 h-10 absolute outline-none opacity-0 cursor-pointer lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'/>
-          <div className='absolute text-[2.2rem] md:text-[3rem] text-white peer-checked:hidden lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'><MdOutlineMenu /></div>
-          <div className='absolute text-[2.2rem] md:text-[3rem] text-white hidden peer-checked:flex lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'><MdOutlineClose/></div>
-          <div className='w-[100%] peer-checked:flex hidden bg-opacity-90 reltaive left-0 right-0 top-0'>
+          <div data-aos="zoom-in" className='absolute text-[2.2rem] md:text-[3rem] text-white peer-checked:hidden lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'><MdOutlineMenu /></div>
+          <div  className='absolute text-[2.2rem] md:text-[3rem] text-white hidden peer-checked:flex lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'><MdOutlineClose/></div>
+          <div  className='w-[100%] duration-700 ease-in-out transition-all peer-checked:flex hidden bg-opacity-90 reltaive left-0 right-0 top-0'>
           <Mobilenav/>
           </div>
      </div>

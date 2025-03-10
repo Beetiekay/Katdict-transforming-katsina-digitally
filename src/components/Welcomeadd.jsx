@@ -39,7 +39,7 @@ const Welcomeadd = () => {
                <span data-aos="fade-up" className='text-green text-xl font-semibold'>At KATDICT,</span> we don’t just dream of a digital future; we craft it. We are committed to shaping the very essence of Katsina’s technological evolution, diving into a realm where innovation knows no bounds and accessibility is the key to unlocking solutions for the challenges we all face.
                </p>
             </div>
-            <p data-aos="fade-up" className=' lg:text-2xl md:text-xl font-semibold mb-6'><span className='text-green'>- Naufal Ahmad</span> Director General</p>
+            <p data-aos="fade-right" className=' lg:text-2xl md:text-xl font-semibold mb-6'><span className='text-green'>- Naufal Ahmad</span> Director General</p>
 
             <Button label={"Read More"}/>
           </div>
@@ -48,7 +48,7 @@ const Welcomeadd = () => {
       </div>
         {/* Our Focus Areas */}
 
-         <p data-aos="fade-up" className='font-semibold py-4 pt-16 text-lg lg:text-center md:text-center text-start opacity-85'>OUR FOCUS <span className='text-green'>AREAS</span></p>
+         <p data-aos="fade-right" className='font-semibold lg:py-4 md:py-4 py-1 pt-16 lg:text-lg md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>OUR FOCUS <span className='text-green'>AREAS</span></p>
          <div className='flex justify-center mb-4'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>We Are Crafting<span className='text-green'> Katsina's Digitall</span> Legacy.</h1></div>
 
          {/* cards */}

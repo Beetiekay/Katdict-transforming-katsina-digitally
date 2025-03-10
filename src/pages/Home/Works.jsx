@@ -6,13 +6,15 @@ import image2 from "../../assets/p2.webp"
 import image3 from "../../assets/p3.jpg"
 import image4 from "../../assets/p4.webp"
 import image5 from "../../assets/p5.jpg"
+import image6 from "../../assets/pattern.png"
 import { Link } from 'react-router-dom'
 
 const Works = () => {
   return (
-    <div className='w-[100%] lg:min-h-[100vh] md:min-h-[80vh] min-h-[70vh]'>
-        <div>
-        <p data-aos="fade-up" className='font-semibold py-4 pt-16 text-lg lg:text-center md:text-center text-start opacity-85'>SOME OF THE <span className='text-green'>WORKS</span> WE DO </p>
+    <div className='w-[100%] lg:min-h-[100vh] md:min-h-[80vh] relative overflow-hidden min-h-[70vh]'>
+      <img src={image6} className='w-full h-screen opacity-35  absolute object-cover'/>
+        <div className='reltive'>
+        <p data-aos="fade-right" className='font-semibold lg:py-4 md:py-4 py-1 pt-16 lg:text-lg md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>SOME OF THE <span className='text-green'>WORKS</span> WE DO </p>
         <div className='flex justify-center mb-16'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>TO SHAPE THE FUTURE OF<span className='text-green'> KATSINA</span>  TODAY </h1></div>
 
         <div >

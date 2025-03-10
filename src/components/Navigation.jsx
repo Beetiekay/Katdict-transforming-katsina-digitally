@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import bg from "../assets/layerbg.png"
 import { Link, useLocation } from 'react-router-dom'
 import Input from './Input'
-import {FaFacebookF, FaInstagram, FaSearch, FaSearchLocation, FaTwitter} from "react-icons/fa"
+import {FaFacebookF, FaInstagram, FaPhone, FaSearch, FaSearchLocation, FaTwitter} from "react-icons/fa"
 import Logo from './Logo'
 import Mobilenav from './Mobilenav'
 import { MdOutlineClose, MdOutlineMenu } from 'react-icons/md'
@@ -34,25 +34,30 @@ const Navigation = () => {
    }
   return (
     <div className='w-[100%] backdrop-blur-2xl bg-green lg:overflow-hidden md:overflow-visible overflow-visible bg-opacity-55 border-b-2 duration-700 ease-in-out transition-all hover:bg-green hover:bg-opacity-100 border-seagreen lg:py-6 md:py-6 py-4 rounded-b-lg fixed'>
-        <img src={bg} className='absolute w-full top-0 opacity-35 z-20 lg:flex hidden'/>
+        <img src={bg} className='absolute w-full top-0 opacity-35 lg:flex hidden'/>
 
-        <div className=' text-white lg:flex md:flex hidden justify-between relative py-4 px-20'>
-          <div className=' flex  items-center gap-4 w-[80%]'>
+        <div className=' text-white flex justify-between relative lg:py-4 md:py-4 py-2 lg:px-20 md:px-20 px-4 lg:mb-0 md:mb-0 mb-2'>
+          <div className=' lg:flex md:flex hidden  items-center gap-4 w-[80%]'>
           <FaSearchLocation size={25}/>
           <div>
             <h1 className='font-semibold'>KATDICT Complex</h1>
            <p className='text-sm'>KSTIM, Ring Road, Katsina.</p>
           </div>  
           </div>
+           
+           <div className='lg:hidden md:hidden flex items-center justify-between w-full'>
+            <div className='flex items-center opacity-80 gap-2'><FaPhone className=''/><p className='text-xs '>070-KATDICT</p></div>
+             <div className='text-sm opacity-80'>Info@katdict.ng</div>
+            </div>
 
-          <div className='flex gap-4'>
+          <div className='lg:flex md:flex hidden gap-4'>
             <FaTwitter size={20} className='cursor-pointer hover:scale-110 duration-700 ease-in-out transition-all'/>
             <FaFacebookF size={20} className='cursor-pointer hover:scale-110 duration-700 ease-in-out transition-all'/>
             <FaInstagram size={20} className='cursor-pointer hover:scale-110 duration-700 ease-in-out transition-all'/>
           </div>
         </div>
 
-        <div className='lg:flex md:flex block lg:justify-around md:justify-start items-center relative lg:px-0 md:px-16 px-0 lg:gap-0 md:gap-0 gap-2
+        <div className='lg:flex md:flex block lg:justify-around md:justify-start items-center relative lg:px-0 md:px-16 px-4 lg:gap-0 md:gap-0 gap-2
         '>
          <div className='lg:mb-0 md:mb-0 mb-2'><Logo/></div>
         
@@ -65,10 +70,10 @@ const Navigation = () => {
             <Link to={"/contact"} className={Links('contact')}><li >Contact us</li></Link>
         </ul>
 
-        <div className='bg-white px-2 rounded-md lg:flex hidden items-center gap-2'>
+        <form action='' className='bg-whitegray px-2 rounded-md lg:flex hidden items-center gap-2'>
             <Input type="text" placeholder=" search..."/>
-            <FaSearch size={20} className='text-green'/>
-        </div>
+            <button type='sumbit' className='outline-none'><FaSearch size={20} className='text-green'/></button>
+        </form>
 
         </div>
 
@@ -78,8 +83,8 @@ const Navigation = () => {
           <input type='checkbox' className='peer transition-transform z-40 w-8 h-8 absolute outline-none opacity-0 cursor-pointer lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-6'/>
           <div data-aos="zoom-in" className='absolute text-[2.2rem] md:text-[3rem] text-white peer-checked:hidden lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-4'><MdOutlineMenu /></div>
           <div  className='absolute text-[2.2rem] md:text-[3rem] text-white hidden peer-checked:flex lg:top-0 md:-top-8 -top-12 lg:right-0 md:right-6 right-6'><MdOutlineClose/></div>
-          <div  className='w-[100%] duration-700 ease-in-out transition-all peer-checked:flex hidden bg-opacity-90 reltaive left-0 right-6 top-0'>
-          <Mobilenav/>
+          <div className='w-[100%] duration-700 ease-in-out transition-all peer-checked:flex hidden bg-opacity-90 reltaive left-0 right-6 top-0'>
+           <Mobilenav/>
           </div>
      </div>
 

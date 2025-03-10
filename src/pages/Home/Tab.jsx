@@ -19,8 +19,8 @@ const Tab = () => {
 
   return (
     <div className='bg-whitegray'>
-         <p data-aos="fade-up" className='font-semibold py-4 lg:px-0 md:px-0 px-4 pt-16 lg:text-center md:text-center text-start text-lg opacity-85'>WELCOME TO <span className='text-green'>KATDICT</span></p>
-         <div data-aos="slide-down"  className='flex lg:justify-center md:justify-center justify-start lg:px-0 md:px-0 px-4'><h1 className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>PIONEERING THE <span className='text-green'>DIGITAL TRANSFORMATION</span><br className='lg:flex md:flex hidden'/> KATSINA STATE</h1></div>
+         <p data-aos="fade-left" className='font-semibold lg:py-4 md:py-4 py-1 lg:px-0 md:px-0 px-4 pt-16 lg:text-center md:text-center text-start lg:text-lg md:text-lg text-sm opacity-85'>WELCOME TO <span className='text-green'>KATDICT</span></p>
+         <div data-aos="fade-right"  className='flex lg:justify-center md:justify-center justify-start lg:px-0 md:px-0 px-4'><h1 className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>PIONEERING THE <span className='text-green'>DIGITAL TRANSFORMATION</span><br className='lg:flex md:flex hidden'/> KATSINA STATE</h1></div>
        <div>
         <div className="lg:overflow-hidden overflow-x-scroll md:overflow-hidden">
           <div className='w-[200vw] lg:w-full md:w-full flex gap-4 mt-6 lg:px-10 md:px-5 px-2 mb-6'>

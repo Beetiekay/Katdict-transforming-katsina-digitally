@@ -10,7 +10,9 @@ import {GoProjectSymlink} from "react-icons/go"
 //aos
 import AOS from 'aos'
 import "aos/dist/aos.css"
+
 import Upadate from '../pages/Home/Upadate'
+import Works from '../pages/Home/Works'
 
 const Welcomeadd = () => {
     useEffect(() => {
@@ -21,7 +23,7 @@ const Welcomeadd = () => {
       <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4'>
         <div className='relative'>
           <img src={DG} data-aos="zoom-out" className='opacity-90'/>
-          <div className='absolute lg:h-[90vh] md:h-[35vh] h-[40vh] top-0 z-10 flex justify-center items-center w-full'>
+          <div className='absolute lg:h-[90vh] md:h-[35vh] h-[40vh] top-0 z-20 flex justify-center items-center w-full'>
              <Video/>
           </div>
         </div>
@@ -124,6 +126,7 @@ const Welcomeadd = () => {
             Request Our Service
            </button>
          </div>
+         <Works/>
          <Upadate/>
     </div>
   )

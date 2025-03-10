@@ -15,7 +15,6 @@ const Home = () => {
    }) 
 
   return (
-    <div className='w-[100%]'>
     <div className='w-full lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh] bg-green bg-opacity-30 overflow-x-hidden'>
      <img src={bg} className='w-full h-full absolute top-0 object-cover opacity-15'/>
       <div>
@@ -34,9 +33,6 @@ const Home = () => {
       </div> 
       <Tab/> 
      <Footer/>
-    </div>
-
-     
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Logo from '../../components/Logo';
@@ -12,7 +13,7 @@ const Upadate = () => {
     <div className='w-[100%] min-h-[100vh]'>
        <div>
        <p data-aos="fade-up" className='font-semibold py-4 pt-16 text-lg lg:text-center md:text-center text-start opacity-85'>RECENT <span className='text-green'>UPDATES</span></p>
-       <div className='flex justify-center mb-16'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>Stay Informed, <span className='text-green'> as we Shape Tomorrow</span> Legacy.</h1></div>
+       <div className='flex justify-center mb-16'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>STAY INFORMED, <span className='text-green'> AS WE SHAPE TOMORROW</span> LEGACY.</h1></div>
        
        <div >
        <div className='w-full overflow-x-scroll relative'> 

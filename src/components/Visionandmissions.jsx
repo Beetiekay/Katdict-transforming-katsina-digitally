@@ -21,7 +21,7 @@ const Visionandmissions = () => {
         {/* line */}
         <div data-aos="fade-up" className=' grid grid-cols-3 mb-5'>
           <div className='text-green'><hr/></div>
-          <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><TfiTarget size={25} className='text-green lg:text-lg md:text-sm'/></div><p className=' lg:text-lg md:text-lg text-[14px]'>OUR <span className='text-green'>FORESIGHT</span></p></div>
+          <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><TfiTarget size={25} className='text-green lg:text-lg md:text-sm'/></div><p className=' text-center lg:text-lg md:text-lg text-[14px]'>OUR <span className='text-green'>FORESIGHT</span></p></div>
           <div className='text-green'><hr/></div>
         </div>
 
@@ -30,7 +30,7 @@ const Visionandmissions = () => {
           <div><img src={image} data-aos="zoom-out"/></div> 
           <div className='flex hover:scale-110 duration-500 lg:items-center md:items-start items-start h-[100vh]'>
             <div data-aos="fade-left" className='lg:text-2xl  cursor-pointer md:text-2xl text-lg py-16 bg-green text-white bg-opacity-75 rounded-2xl'>
-            <h1  className='text-center lg:px-0 md:px-0 px-2'>We picture a Katsina where technology isn’t just a tool, but a <span className='text-black font-semibold'>force driving inclusive development,</span> transparent governance, and sustainable progress.</h1>
+            <h1  className='lg:text-center text-start lg:px-0 md:px-0 px-2'>We picture a Katsina where technology isn’t just a tool, but a <span className='text-black font-semibold'>force driving inclusive development,</span> transparent governance, and sustainable progress.</h1>
             </div>
           </div>
           
@@ -39,15 +39,15 @@ const Visionandmissions = () => {
         {/* line */}
         <div data-aos="fade-up" className=' grid grid-cols-3 mb-12'>
           <div className='text-green'><hr/></div>
-          <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><FaLocationArrow size={25} className='text-green lg:text-lg md:text-sm'/></div><p className=' lg:text-lg md:text-lg text-[14px]'>OUR <span className='text-green'>MISSSIONS</span></p></div>
+          <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><FaLocationArrow size={25} className='text-green lg:text-lg md:text-sm'/></div><p className='text-center lg:text-lg md:text-lg text-[14px]'>OUR <span className='text-green'>MISSSIONS</span></p></div>
           <div className='text-green'><hr/></div>
         </div>
 
         {/* contents */}
         <div className='grid lg:h-fit md:h-[60vh] h-[90vh] lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-4 px-8 mb-5'>
-        <div><img src={image2} data-aos="zoom-in" className='rounded-2xl h-full'/></div>
+        <div><img src={image2} data-aos="zoom-in" className='rounded-2xl object-cover h-full'/></div>
           <div className='flex items-center '>
-          <div className='lg:text-2xl hover:scale-110 duration-500 cursor-pointer bg-opacity-80 bg-green py-10 px-4 rounded-2xl text-white md:text-xl text-lg'>
+          <div className='lg:text-2xl lg:mt-0 md:mt-0 -mt-10 hover:scale-110 duration-500 cursor-pointer bg-opacity-80 bg-green py-10 px-4 rounded-2xl text-white md:text-xl text-lg'>
             <h1 data-aos="fade-up">Our mission is to elevate government services, invigorate the economy, and enrich the quality of life in our community, through a blend of innovation and collaboration, to build a sustainable future where technology is a catalyst for positive change</h1>
             </div>
           </div>
@@ -56,7 +56,7 @@ const Visionandmissions = () => {
          {/* line */}
          <div data-aos="fade-up" className=' grid grid-cols-3 mb-12'>
           <div className='text-green'><hr/></div>
-          <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><FaStar size={25} className='text-green lg:text-lg md:text-sm'/></div><p className=' lg:text-lg md:text-lg text-[14px]'>CORE <span className='text-green'>VALUES</span></p></div>
+          <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><FaStar size={25} className='text-green lg:text-lg md:text-sm'/></div><p className='text-center lg:text-lg md:text-lg text-[14px]'>CORE <span className='text-green'>VALUES</span></p></div>
           <div className='text-green'><hr/></div>
         </div>
 
@@ -110,7 +110,7 @@ const Visionandmissions = () => {
              </div>
            </div>
           </div>
-           <img src={image3} className='rounded-2xl w-full'/>
+           <img src={image3} className='rounded-2xl object-cover w-full'/>
         </div>
         <Works/>
         <Upadate/>

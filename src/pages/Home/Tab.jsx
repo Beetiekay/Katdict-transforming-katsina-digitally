@@ -15,7 +15,6 @@ const Tab = () => {
    })
 
     const [state, setState] = useState(1)
-    const navigate = useNavigate();
 
   return (
     <div className='bg-whitegray'>

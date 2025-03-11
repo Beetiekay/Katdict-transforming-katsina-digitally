@@ -6,6 +6,7 @@ import bg from "../../assets/dg (2).jpeg"
 import AOS from 'aos';
 import "aos/dist/aos.css"
 import Downlaod from '../../components/Downlaod'
+import Footer from '../../components/Footer';
 
 const About = () => {
    useEffect(() => {
@@ -31,6 +32,7 @@ const About = () => {
         </div>
       </div>
       <Downlaod/>
+      <Footer/>
     </div>
   )
 }

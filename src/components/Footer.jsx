@@ -19,7 +19,7 @@ const Footer = () => {
       <div className='w-full relative'>
         <img src={katdict} className='w-full absolute lg:top-0 md:top-0 -top-[0.1rem] lg:object-fill md:object-fill object-cover'/>
         <div className='grid lg:grid-cols-2 grid-cols-1 relative lg:px-16 md:px-16 px-5 py-10 gap-10'>  
-            <div className='mt-24'>
+            <div className='lg:mt-24 md:mt-24 mt-10'>
 
                 <div className='flex justify-between flex-wrap mb-4 py-2 border-b-2 border-white'>
                 <div data-aos="zoom-in"><Logo/></div>

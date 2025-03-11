@@ -19,13 +19,13 @@ const Ourservice = () => {
          />
         <Servicec 
          image={image2}
-         tittle="ICT Government & Strategy"
-         paragh="Coordinate state ICT activities, implement strategic policy frameworks, and drive automation initiatives to streamline government processes."
+         tittle="Infrastructure Management & Oversight"
+         paragh="Maintain state-owned technology platforms, oversee technology providers, and ensure efficient infrastructure for all ICT needs."
          />
         <Servicec 
          image={image3}
-         tittle="ICT Government & Strategy"
-         paragh="Coordinate state ICT activities, implement strategic policy frameworks, and drive automation initiatives to streamline government processes."
+         tittle="Needs Assessment & Procurement"
+         paragh="Conduct assessments, recommend innovative solutions, procure ICT resources, and champion efficient procurement practices."
          />
       </div>
       <Works/>

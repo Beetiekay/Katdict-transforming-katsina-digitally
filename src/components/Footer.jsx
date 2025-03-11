@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import Logo from './Logo'
+import katdict from '../assets/kat2.png'
 import { FaClock, FaFacebook, FaInstagram, FaInternetExplorer, FaLinkedin, FaPhone, FaSearchLocation, FaTwitter } from 'react-icons/fa'
 import Map from './Map'
 import bg from "../assets/layerbg.png"
@@ -13,10 +14,12 @@ const Footer = () => {
       AOS.init({duration:1200})
    }) 
   return (
-    <div className='bg-green w-[100%] py-4 lg:px-16 md:px-16 px-5 relative overflow-hidden'>
-           <img src={bg} className='absolute w-full h-[100vh] top-0 opacity-35'/>
-        <div className='grid lg:grid-cols-2 grid-cols-1 relative  gap-10'>
-            <div className=''>
+    <div className='bg-green w-[100%]  relative lg:overflow-hidden md:overflow-hidden overflow-visible'>
+       <img src={bg} className='absolute w-full h-[100vh] top-0 opacity-35'/>
+      <div className='w-full relative'>
+        <img src={katdict} className='w-full absolute lg:top-0 md:top-0 -top-[0.1rem] lg:object-fill md:object-fill object-cover'/>
+        <div className='grid lg:grid-cols-2 grid-cols-1 relative lg:px-16 md:px-16 px-5 py-10 gap-10'>  
+            <div className='mt-24'>
 
                 <div className='flex justify-between flex-wrap mb-4 py-2 border-b-2 border-white'>
                 <div data-aos="zoom-in"><Logo/></div>
@@ -56,7 +59,7 @@ const Footer = () => {
                  <p className='lg:text-lg md:text-lg text-sm lg:flex hidden text-white'>Copyright@ 2025 <span className='text-black font-semibold'>KATDICT</span> AllRights Reserved</p>
               </div>
 
-              <div >
+              <div className='mt-24'>
               <div className='space-y-2 py-5 grid lg:grid-cols-2 grid-cols-1'>
                 <div data-aos="zoom-out" className='flex gap-2 '>
                     <button className='p-2 px-3 rounded-lg bg-white text-green outline-none text-2xl'><FaSearchLocation/></button>
@@ -97,6 +100,7 @@ const Footer = () => {
                 <p  className='lg:text-lg md:text-lg text-sm lg:hidden flex text-white'>Copyright@ 2025 <span className='text-black font-semibold'>  KATDICT</span>  AllRights Reserved</p>
             </div>
         </div>
+      </div>
     </div>
   )
 }

@@ -14,7 +14,7 @@ const About = () => {
      })
 
   return (
-    <div className='w-full relative'>
+    <div className='w-full overflow-hidden relative'>
       <img src={bg} className='w-full h-[100vh] absolute top-0 saturate-0 object-cover opacity-20 blur-[1.3px]'/>
       <div>
        <div className='absolute z-20'> <Navigation/></div>

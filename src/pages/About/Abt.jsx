@@ -13,7 +13,7 @@ const Abt = () => {
         AOS.init({duration:1200})
      })
   return (
-      <div>
+      <div className='w-[100%] overflow-hidden'>
         <div className='min-h-[100vh] w-[100%] flex justify-center items-center relative'>
         <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 mt-28'>
           <div>

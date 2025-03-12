@@ -100,7 +100,8 @@ const Welcomeadd = () => {
               <div className='px-4 py-6'>
                 <h1 className='text-xl font-semibold text-green'>Innovation & Collaboration</h1>
                 <p className='text-white opacity-80'>
-                 Deliver annual ICT performance reports, organize ICT events in the state, and represent the state at technology events, and advocate for the effective use of technology within government.
+                 Foster ICT hubs development, collaborate with providers for continous leearning, and explore
+                 innovative solutions for government service
                 </p>
               </div>
             </div>
@@ -123,7 +124,7 @@ const Welcomeadd = () => {
            </button>
 
            <button data-aos="fade-down" className='w-full py-4 border-2 rounded-lg border-green hover:translate-y-1 duration-700 ease-out transition-all hover:bg-green hover:text-white'>
-            Request Our Service
+            Other Services
            </button>
          </div>
          <Works/>

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom';
 import Welcomeadd from '../../components/Welcomeadd';
 import Visionandmissions from '../../components/Visionandmissions';
 import Ourservice from '../../components/Ourservice';

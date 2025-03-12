@@ -1,46 +1,40 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navigation from '../../components/Navigation'
 import bg from "../../assets/dg (2).jpeg";
-import katdict from "../../assets/katdick3.jpg"
+import Abt from './Abt';
+import Team from './Team';
+import Faqs from './Faqs';
 
-//aos
-import AOS from 'aos';
-import "aos/dist/aos.css"
-import Downlaod from '../../components/Downlaod'
-import Footer from '../../components/Footer';
-import Details from './Details';
 
 const About = () => {
-   useEffect(() => {
-        AOS.init({duration:1200})
-     })
+
+    const [state, setState] = useState(1)
 
   return (
     <div className='w-full overflow-hidden relative'>
       <img src={bg} className='w-full h-[100vh] absolute top-0 saturate-0 object-cover opacity-20 blur-[1.3px]'/>
       <div>
        <div className='absolute z-20'> <Navigation/></div>
+       <div className="lg:overflow-hidden overflow-x-scroll md:overflow-hidden">
+            
+            <div className='flex justify-center mb-4'>
+            <div className='absolute z-20 top-48 bg-black bg-opacity-5 rounded-3xl flex gap-4 mt-6 lg:px-10 md:px-5 py-2 px-2 mb-6'>
+             <button onClick={() => setState(1)} className={`${state === 1 ? "py-2 px-4 rounded-2xl bg-black bg-opacity-20 text-white  " : "py-2 px-4 rounded-2xl  text-black"}`}>Background</button>
+             <button onClick={() => setState(2)} className={`${state === 2 ? "py-2 px-4 rounded-2xl bg-black bg-opacity-20 text-white" : "py-2 px-4 rounded-2xl  text-black"}`}>Team</button>
+             <button onClick={() => setState(3)} className={`${state === 3 ? "py-2 px-4 rounded-2xl bg-black bg-opacity-20 text-white" : "py-2 px-4 rounded-2xl  text-black"}`}>FAQs</button>
+            </div>
+            </div>
 
-       <div className='min-h-[100vh] w-[100%] flex justify-center items-center relative'>
-        <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1'>
-          <div>
-          <h1 data-aos="fade-right" className='lg:text-4xl md:text-2xl text-xl lg:px-4 md:px-4 px-4 lg:text-center md:text-center text-start mb-5'>About <span className='font-bold text-green'>KATDICT</span></h1>
-          <div data-aos="zoom-in" className='flex justify-center  hover:translate-y-6'>
-            <h1 className='lg:w-[60%] md:w-[80%] w-[95%] mb-4 text-cente hover:bg-opacity-100  hover:-mt-6 duration-700 ease-in-out hover:text-white bg-green bg-opacity-40 py-4 lg:px-4 md:px-4 px-2 rounded-2xl lg:text-lg md:text-lg text-sm'>
-            KATDICT is Pioneering the Digital Transformation of Katsina State, our activities cut across providing ICT services to the Government, fostering the growth and development of Technology and Innovation Hubs and making Government services available to the populace.</h1>
-          </div>
-          </div>
-
-          <div data-aos="fade-up" className='flex justify-center'>
-            <img src={katdict} className='object-cover w-[90%] lg:h-72 md:h-[35vh] lg:hover:-translate-x-8 md:hover:-translate-x-8 hover:-translate-x-2  duration-700 hover:scale-110  rounded-2xl saturate-150 -hue-rotate-30'/>
+            {/* contents */}
+            <div className=''>
+            {state === 1 && <Abt/>}
+            {state === 2 && <Team/>}
+            {state === 3 && <Faqs/>}
             </div>
         </div>
-
-        </div>
+       
       </div>
-      <Details/>
-      <Downlaod/>
-      <Footer/>
+      
     </div>
   )
 }

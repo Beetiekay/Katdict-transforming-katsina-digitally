@@ -20,7 +20,7 @@ export default {
     colors:{
      'gray':'#a9a9a9',
      'black':'#000000',
-     'seagreen':'#8fbc8f',
+     'seagreen':'#009832',
      'green':'#2e9d17',
      'white':'#fffafa',
      'whitegray':'#ffffff',

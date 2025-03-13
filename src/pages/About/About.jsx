@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import Navigation from '../../components/Navigation'
-import bg from "../../assets/dg (2).jpeg";
 import Abt from './Abt';
 import Team from './Team';
 import Faqs from './Faqs';
@@ -12,16 +11,15 @@ const About = () => {
 
   return (
     <div className='w-full overflow-hidden relative'>
-      <img src={bg} className='w-full h-[100vh] absolute top-0 saturate-0 object-cover opacity-20 blur-[1.3px]'/>
       <div>
        <div className='absolute z-20'> <Navigation/></div>
        <div className="lg:overflow-hidden overflow-x-scroll md:overflow-hidden">
             
             <div className='flex justify-center mb-4'>
-            <div className='absolute z-10 lg:top-48 md:top-48 top-36 bg-black bg-opacity-5 rounded-3xl flex gap-4 mt-6 lg:px-10 md:px-5 py-2 px-2 mb-6'>
-             <button onClick={() => setState(1)} className={`${state === 1 ? "py-2 px-4 rounded-2xl bg-black bg-opacity-20 text-white  " : "py-2 px-4 rounded-2xl  text-black"}`}>Background</button>
-             <button onClick={() => setState(2)} className={`${state === 2 ? "py-2 px-4 rounded-2xl bg-black bg-opacity-20 text-white" : "py-2 px-4 rounded-2xl  text-black"}`}>Team</button>
-             <button onClick={() => setState(3)} className={`${state === 3 ? "py-2 px-4 rounded-2xl bg-black bg-opacity-20 text-white" : "py-2 px-4 rounded-2xl  text-black"}`}>FAQs</button>
+            <div className='absolute z-10 lg:top-48 md:top-48 top-36 bg-black bg-opacity-5 rounded-3xl flex gap-4 mt-6 lg:px-4 md:px-4 py-2 px-2 mb-6'>
+             <button onClick={() => setState(1)} className={`${state === 1 ? "py-2 px-4 rounded-2xl bg-green text-white  " : "py-2 px-4 rounded-2xl  text-black"}`}>Background</button>
+             <button onClick={() => setState(2)} className={`${state === 2 ? "py-2 px-4 rounded-2xl bg-green text-white" : "py-2 px-4 rounded-2xl  text-black"}`}>Team</button>
+             <button onClick={() => setState(3)} className={`${state === 3 ? "py-2 px-4 rounded-2xl bg-green text-white" : "py-2 px-4 rounded-2xl  text-black"}`}>FAQs</button>
             </div>
             </div>
 

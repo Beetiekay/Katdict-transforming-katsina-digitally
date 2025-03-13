@@ -11,7 +11,7 @@ const Details = () => {
          })
   return (
     <div className='py-5 relative'>
-        <img src={bg} className='w-full h-[100vh] absolute top-0 saturate-0 object-cover opacity-15'/>
+        <img src={bg} className='w-full h-[100vh] absolute top-0 saturate-0 object-cover opacity-5'/>
         <div className='relative'>
         <div className='lg:px-0 md:px-0 px-4'>
         <p className='bg-black bg-opacity-10 py-6 px-4 lg:w-[60%] md:w-[80%] w-full mb-4'>

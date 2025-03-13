@@ -3,7 +3,7 @@ import {FaChevronCircleDown} from "react-icons/fa"
 
 const Dropd = () => {
   return (
-    <div className='w-full bg-seagreen bg-opacity-5 py-2 lg:px-10 md:px-8 px-4 flex justify-center'>
+    <div className='w-full  py-0 lg:px-10 md:px-8 px-4 flex justify-center'>
       <div className='lg:w-[50%] md:w-[90%] w-full'>
         {/* drop down */}
         <div className='relative  mb-6 hover:scale-105'>

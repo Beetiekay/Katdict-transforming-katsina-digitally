@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Navigation from '../../components/Navigation'
-import bg from "../../assets/katdick3.jpg"
+import bg from "../../assets/katdict3.jpg"
 import Tab from './Tab'
 import Button from '../../components/Button'
 import Footer from '../../components/Footer'

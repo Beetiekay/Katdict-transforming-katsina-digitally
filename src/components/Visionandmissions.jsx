@@ -3,7 +3,7 @@ import { TfiTarget } from 'react-icons/tfi'
 import image from "../assets/dg2.png"
 import { FaChevronDown, FaLocationArrow, FaStar } from 'react-icons/fa'
 import image2 from "../assets/p5.jpg"
-import image3 from "../assets/bg.jpg"
+import image3 from "../assets/katdict3.jpg"
 import Works from '../pages/Home/Works'
 import Upadate from '../pages/Home/Upadate'
 

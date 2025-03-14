@@ -49,7 +49,7 @@ const Welcomeadd = () => {
         {/* Our Focus Areas */}
 
          <p data-aos="fade-right" className='font-semibold lg:py-4 md:py-4 py-1 pt-16 lg:text-lg md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>OUR FOCUS <span className='text-green'>AREAS</span></p>
-         <div className='flex justify-center mb-4'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>We Are Crafting<span className='text-green'> Katsina's Digitall</span> Legacy.</h1></div>
+         <div className='flex justify-center mb-4'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>We Are Crafting<span className='text-green'> Katsina's Digital</span> Legacy.</h1></div>
 
          {/* cards */}
          <div className='w-[100%] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:px md:px-5-10 mb-10'>

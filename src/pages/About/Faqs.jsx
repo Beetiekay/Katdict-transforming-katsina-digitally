@@ -18,7 +18,7 @@ const Faqs = () => {
            <p data-aos="fade-up" className='px-4 lg:text-sm md:text-sm text-xs font-semibold'>Here's Is a little more about how we operate. Got a more<br/> specific Questions.</p>
         </div>
            
-           <div data-aos="zoom-in" className='lg:px-0 md:px-0 px-2'><video src={video} controls className='rounded-2xl'/></div>
+           <div data-aos="zoom-in" className='lg:px-0 md:px-0 px-5'><video src={video} controls className='rounded-2xl'/></div>
       </div>
     </div>
     <Dropd/>

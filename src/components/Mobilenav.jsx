@@ -25,8 +25,8 @@ const Mobilenav = () => {
         <ul className='text-lg block space-y-2 text-white opacity-80'>
             <Link to={"/"} className={Links('home')}><li>Home</li></Link>
             <Link to={"/about"} className={Links('about')}><li>About</li></Link>
-            <Link className={Links('what we do')}><li>Our focus areas</li></Link>
-            <Link className={Links('update')}><li>Update</li></Link>
+            <Link to={"/focus"} className={Links('focus')}><li>Our focus areas</li></Link>
+            <Link to={"/update"} className={Links('update')}><li>Update</li></Link>
             <Link to={"/contact"} className={Links('contact')}><li >Contact us</li></Link>
         </ul>
 

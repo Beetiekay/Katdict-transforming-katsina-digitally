@@ -20,7 +20,7 @@ const Abt = () => {
           <h1 data-aos="fade-right" className='lg:text-4xl lg:text-black md:text-black text-white md:text-2xl text-xl lg:px-10 md:px-8 px-4 lg:text-start md:text-center text-start mb-5'>About <span className='font-bold lg:opacity-100 md:opacity-100 opacity-60 lg:text-green md:text-green text-black'>KATDICT</span>
           </h1>
           <div data-aos="zoom-in" className='flex justify-center  hover:translate-y-6'>
-            <h1 className='lg:w-[90%] md:w-[95%] w-[95%] mb-4  hover:bg-opacity-100  hover:-mt-6 duration-700 ease-in-out hover:text-green lg:py-16 md:py-4 py-4 lg:px-4 md:px-4 px-2 rounded-2xl lg:text-lg md:text-lg text-sm'>
+            <h1 className='lg:w-[90%] md:w-[95%] w-[95%] mb-4  hover:bg-opacity-100  hover:-mt-6 duration-700 ease-in-out lg:text-black md:text-black text-white lg:py-16 md:py-4 py-4 lg:px-4 md:px-4 px-2 rounded-2xl lg:text-lg md:text-lg text-sm'>
             KATDICT is Pioneering the Digital Transformation of Katsina State, our activities cut across providing ICT services to the Government, fostering the growth and development of Technology and Innovation Hubs and making Government services available to the populace.</h1>
           </div>
           </div>

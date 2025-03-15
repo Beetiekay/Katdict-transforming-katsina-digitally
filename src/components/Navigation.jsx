@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import bg from "../assets/layerbg.png"
 import { Link, useLocation } from 'react-router-dom'
 import Input from './Input'
-import {FaFacebookF, FaInstagram, FaPhone, FaSearch, FaSearchLocation, FaTwitter} from "react-icons/fa"
+import { FaSearch,} from "react-icons/fa"
 import Logo from './Logo'
 import Mobilenav from './Mobilenav'
 import { MdOutlineClose, MdOutlineMenu } from 'react-icons/md'
@@ -35,27 +35,6 @@ const Navigation = () => {
   return (
     <div className='w-[100%] backdrop-blur-2xl bg-green lg:overflow-hidden md:overflow-visible overflow-visible bg-opacity-55 border-b-2 duration-700 ease-in-out transition-all hover:bg-green hover:bg-opacity-100 border-seagreen lg:py-6 md:py-6 py-4 rounded-b-lg fixed'>
         <img src={bg} className='absolute w-full top-0 opacity-15 lg:flex hidden'/>
-
-        <div className=' text-white hidden justify-between relative lg:py-4 md:py-4 py-2 lg:px-20 md:px-20 px-4 lg:mb-0 md:mb-0 mb-2'>
-          <div className=' lg:flex md:flex hidden  items-center gap-4 w-[80%]'>
-          <FaSearchLocation size={25}/>
-          <div>
-            <h1 className='font-semibold'>KATDICT Complex</h1>
-           <p className='text-sm'>KSTIM, Ring Road, Katsina.</p>
-          </div>  
-          </div>
-           
-           <div className='lg:hidden md:hidden flex items-center justify-between w-full'>
-            <div className='flex items-center opacity-80 gap-2'><FaPhone className=''/><p className='text-xs '>070-KATDICT</p></div>
-             <div className='text-sm opacity-80'>Info@katdict.ng</div>
-            </div>
-
-          <div className='lg:flex md:flex hidden gap-4'>
-            <FaTwitter size={20} className='cursor-pointer hover:scale-110 duration-700 ease-in-out transition-all'/>
-            <FaFacebookF size={20} className='cursor-pointer hover:scale-110 duration-700 ease-in-out transition-all'/>
-            <FaInstagram size={20} className='cursor-pointer hover:scale-110 duration-700 ease-in-out transition-all'/>
-          </div>
-        </div>
 
         <div className='lg:flex md:flex block lg:justify-around md:justify-start items-center relative lg:px-0 md:px-16 px-4 lg:gap-0 md:gap-0 gap-2
         '>

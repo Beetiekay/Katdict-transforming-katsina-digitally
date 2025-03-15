@@ -7,9 +7,9 @@ import Footer from '../../components/Footer'
 
 const Contact = () => {
   return (
-    <div className='w-full lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh]  overflow-x-hidden'>
+    <div className='w-[100%] lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh]  overflow-x-hidden'>
         <div className='absolute z-20'><Navigation/></div>
-          <div className='min-h-[100vh] w-[100%] lg:mt-8 md:mt-8 mt-24 flex justify-center items-center relative'>
+          <div className='min-h-[100vh] w-[100%] lg:mt-16 md:mt-16 mt-24 flex justify-center items-center relative'>
             <div>
             <h1 data-aos="fade-right" className='lg:text-4xl md:text-4xl text-2xl text-center font-semibold mb-6'>CONTACT <span className='text-green'>US</span></h1> 
             <div >
@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
               </div>
              
-                <div className=' rounded-xl overflow-hidden shadow-md scale-125 mb-8'><Map/></div>
+                <div className='flex justify-center'><div className='lg:w-[100%] md:w-[90%] w-[45%] scale-110  rounded-2xl overflow-hidden'><Map/></div></div>
              </div>
            </div>
          </div>

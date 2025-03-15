@@ -36,7 +36,7 @@ const Navigation = () => {
     <div className='w-[100%] backdrop-blur-2xl bg-green lg:overflow-hidden md:overflow-visible overflow-visible bg-opacity-55 border-b-2 duration-700 ease-in-out transition-all hover:bg-green hover:bg-opacity-100 border-seagreen lg:py-6 md:py-6 py-4 rounded-b-lg fixed'>
         <img src={bg} className='absolute w-full top-0 opacity-15 lg:flex hidden'/>
 
-        <div className=' text-white flex justify-between relative lg:py-4 md:py-4 py-2 lg:px-20 md:px-20 px-4 lg:mb-0 md:mb-0 mb-2'>
+        <div className=' text-white hidden justify-between relative lg:py-4 md:py-4 py-2 lg:px-20 md:px-20 px-4 lg:mb-0 md:mb-0 mb-2'>
           <div className=' lg:flex md:flex hidden  items-center gap-4 w-[80%]'>
           <FaSearchLocation size={25}/>
           <div>
@@ -64,9 +64,9 @@ const Navigation = () => {
 
         <ul className=' gap-2 text-lg hidden md:hidden lg:flex text-white opacity-80'>
             <Link to={"/"} className={Links('home')}><li>Home</li></Link>
-            <Link to={"/about"} className={Links('about')}><li>About</li></Link>
             <Link to={"/focus"} className={Links('focus')}><li>Our Focus Areas</li></Link>
             <Link to={"/update"} className={Links('update')}><li>Update</li></Link>
+            <Link to={"/about"} className={Links('about')}><li>About</li></Link>
             <Link to={"/contact"} className={Links('contact')}><li >Contact us</li></Link>
         </ul>
 

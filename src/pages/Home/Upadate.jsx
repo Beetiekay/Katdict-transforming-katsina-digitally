@@ -16,10 +16,12 @@ const Upadate = () => {
        <div>
        <p data-aos="fade-right" className='font-semibold lg:py-4 md:py-4 py-1 pt-16 lg:text-lg md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>RECENT <span className='text-green'>UPDATES</span></p>
        <div className='flex justify-center mb-16'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>STAY INFORMED, <span className='text-green'> AS WE SHAPE TOMORROW</span> LEGACY.</h1></div>
-       
+       <div className='flex justify-end lg:px-36 mb-6 text-green '><Link to={"recent"} className='hover:scale-110 duration-500'>View All</Link></div>
+
        <div className='w-full  relative'> 
        <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 lg:px-36 md:px-8 px-1 mb-10'>
         {/* 1 */}
+        <Link to={"levelup"}>
         <div dat-aos="zoom-in" className='lg:px-24 md:px-0 p-1 relative  z-0'>
              <div className='bg-green absolute lg:h-[60vh] md:h-[45vh] lg:w-[60%] md:w-[100%] w-full -mt-4 rotate-3 animate-spin duration-700 rounded-2xl'></div>
             <div className='bg-white border relative z-10 shadow-md py-2 px-2 overflow-hidden rounded-xl hover:scale-95 duration-700'>
@@ -34,7 +36,7 @@ const Upadate = () => {
             <div className='mb-2'><Link><h1 className='px-4 flex items-center gap-4 lg:text-lg md:text-lg text-xs'>Apply Now <span className='bg-cobalt px-2 text-white py-1'>Katdictng/levelup-katsina</span></h1></Link></div>
             </div>
         </div>
-         
+         </Link>
           {/* 2 */}
         <div dat-aos="zoom-in" className='lg:px-24 md:px-0 p-1 relative  z-0'>
              <div className='bg-green absolute lg:h-[60vh] md:h-[45vh] lg:w-[60%] md:w-[100%] w-full -mt-4 rotate-3 animate-spin duration-700 rounded-2xl'></div>

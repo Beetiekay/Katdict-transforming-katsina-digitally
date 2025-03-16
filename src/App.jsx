@@ -7,6 +7,7 @@ import Focusarea from './pages/Focusarea/Focusarea'
 import Wedo from './components/Wedo'
 import Allworks from './components/Allworks'
 import Recent from './pages/Update/Recent'
+import Ktlevelup from './components/Ktlevelup'
 
 
 export default function App() {
@@ -16,10 +17,11 @@ export default function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/focus" element={<Focusarea/>}/>
-          <Route path="/update" element={<Recent/>}/>
+          <Route path="/recent" element={<Recent/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/more" element={<Wedo/>}/>
           <Route path="/all works" element={<Allworks/>}/>
+          <Route path="/levelup" element={<Ktlevelup/>}/>
      </Routes>
    </BrowserRouter>
   )

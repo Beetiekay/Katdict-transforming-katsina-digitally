@@ -44,7 +44,7 @@ const Navigation = () => {
         <ul className=' gap-2 text-lg hidden md:hidden lg:flex text-white opacity-80'>
             <Link to={"/"} className={Links('home')}><li>Home</li></Link>
             <Link to={"/focus"} className={Links('focus')}><li>Our Focus Areas</li></Link>
-            <Link to={"/update"} className={Links('update')}><li>Update</li></Link>
+            <Link to={"/recent"} className={Links('recent')}><li>Update</li></Link>
             <Link to={"/about"} className={Links('about')}><li>About</li></Link>
             <Link to={"/contact"} className={Links('contact')}><li >Contact us</li></Link>
         </ul>

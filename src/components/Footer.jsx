@@ -9,6 +9,7 @@ import image from "../assets/kat.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom'
+import ScrollToTop from 'react-scroll-to-top'
 
 const Footer = () => {
     useEffect(() => {
@@ -17,6 +18,9 @@ const Footer = () => {
   return (
     <div className='bg-green w-[100%]  relative lg:overflow-hidden md:overflow-hidden overflow-visible'>
        <img src={bg} className='absolute w-full h-[100vh] top-0 opacity-15'/>
+
+       <ScrollToTop smooth top={30} color='green' className='flex justify-center p-2'/>
+
       <div className='w-full relative'>
         <img src={katdict} data-aos="zoom-out" className='w-full absolute lg:top-0 md:top-0 -top-[0.1rem] lg:object-fill md:object-fill object-cover'/>
         <div className='grid lg:grid-cols-2 grid-cols-1 relative lg:px-28 md:px-16 px-5 py-10 gap-10'>  

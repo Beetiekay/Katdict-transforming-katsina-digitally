@@ -1,6 +1,5 @@
 import React from 'react'
 import Cardw from '../pages/Home/Cardw'
-import { Link } from 'react-router-dom'
 import image1 from "../assets/p1.jpg"
 import image2 from "../assets/p2.webp"
 import image3 from "../assets/p3.jpg"

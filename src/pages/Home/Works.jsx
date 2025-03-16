@@ -16,7 +16,7 @@ const Works = () => {
         <div className='flex justify-center mb-16'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>TO SHAPE THE FUTURE OF<span className='text-green'> KATSINA</span>  TODAY </h1></div>
 
         <div >
-              <div className='py-2 relative flex justify-end lg:px-16 md:px-5 px-4 text-green'><Link to={"/all works"} className='bg-seagreen rounded-2xl text-white py-2 px-4'>See All</Link></div>
+              <div className='py-2 relative flex justify-end lg:px-16 md:px-5 px-0 text-green'><Link to={"/all works"} className=' py-2 px-4'>See All</Link></div>
           <div className='w-full overflow-x-scroll relative'> 
             <div className='lg:w-[100%] md:w-[170vw] w-[200vw] grid grid-cols-3  gap-5 lg:px-52 md:px-5 px-1 mb-10'>
                 <Cardw 

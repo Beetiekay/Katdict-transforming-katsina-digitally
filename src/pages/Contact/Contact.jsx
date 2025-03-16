@@ -13,8 +13,8 @@ const Contact = () => {
             <div>
             <h1 data-aos="fade-right" className='lg:text-4xl md:text-4xl text-2xl text-center font-semibold mb-6'>CONTACT <span className='text-green'>US</span></h1> 
             <div >
-             <div data-aos="fade-up" className=' flex justify-center  px-5 mb-16'>
-               <div className='space-y-2 py-5 px-10 gap-6 rounded-2xl shadow-md bg-green grid lg:grid-cols-2 grid-cols-1'>
+             <div data-aos="fade-up" className=' flex justify-center px-5 mb-16'>
+               <div className='space-y-2 py-5 lg:px-10 md:px-16 px-8 gap-6 rounded-2xl shadow-md bg-green grid lg:grid-cols-2 grid-cols-1'>
                 <div data-aos="fade-right" className='flex gap-2 '>
                     <button className='p-2 px-3 rounded-lg bg-white text-green outline-none text-2xl'><FaSearchLocation/></button>
                 <div className='text-white'>
@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
               </div>
              
-                <div className='flex justify-center'><div className='lg:w-[100%] md:w-[90%] w-[45%] scale-110  rounded-2xl overflow-hidden'><Map/></div></div>
+                <div className='flex justify-center mb-4'><div className='lg:w-[100%] md:w-[90%] w-[45%] scale-110  rounded-2xl overflow-hidden'><Map/></div></div>
              </div>
            </div>
          </div>

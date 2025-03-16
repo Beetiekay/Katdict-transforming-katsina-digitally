@@ -16,7 +16,7 @@ const Focusarea = () => {
   return (
     <div className='w-full lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh]  overflow-x-hidden'>
      <div className='absolute z-20'><Navigation/></div>
-     <div className='min-h-[100vh] lg:mt-56 md:mt-52 mt-56 w-[100%] flex justify-center items-center relative'>
+     <div className='min-h-[100vh] lg:mt-56 md:mt-52 mt-40 w-[100%] flex justify-center items-center relative'>
         <div>
            <h1 data-aos="fade-right" className='lg:text-5xl md:text-4xl text-2xl text-center font-semibold mb-2'>OUR FOCUS <span className='text-green'>AREAS</span></h1> 
            <p className='text-lg text-center text-green mb-6'>Empowering Katsina Through ICT</p>
@@ -179,7 +179,7 @@ const Focusarea = () => {
              <div className='relative'>
                 <div className='absolute -right-1 h-[60vh] lg:w-8 md:w-8 w-2 lg:bg-whitegray md:bg-whitegray bg-green'></div>
              <div className='flex lg:px-4 md:px-4 px-2 items-center overflow-y-auto h-[60vh]'>
-                <div className='w-full lg:mt-20 md:mt-20 mt-36 '>
+                <div className='w-full lg:mt-20 md:mt-20 -mt-8 '>
                    <h1 data-aos="fade-right" className='flex lg:text-black md:text-black text-white items-center font-semibold lg:text-xl md:text-xl text-xl mb-4 lg:gap-4 md:gap-4 gap-2'><span className='font-bold lg:text-2xl md:text-2xl text-xl lg:text-green md:text-green text-white'>4.</span>Katsina ICT and Entrepreneurship Program:
 
                    </h1>

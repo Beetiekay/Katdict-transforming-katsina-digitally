@@ -5,6 +5,7 @@ import hack from "../../assets/hack.png"
 import pattern from "../../assets/icon5.png"
 import com from "../../assets/icon1.png"
 import { Link } from 'react-router-dom'
+import Footer from '../../components/Footer'
 
 const Recent = () => {
   return (
@@ -17,7 +18,7 @@ const Recent = () => {
                  {/* 1 */}
                  <Link to={"/levelup"}>
                  <div dat-aos="flip-right" className='lg:px-24 md:px-0 p-1 relative  z-0'>
-                           <div className='bg-green absolute lg:h-[60vh] md:h-[45vh] lg:w-[60%] md:w-[100%] w-full -mt-4 rotate-3 animate-spin duration-700 rounded-2xl'></div>
+                           <div className='bg-cobalt absolute lg:h-[60vh] md:h-[45vh] lg:w-[60%] md:w-[100%] w-full -mt-4 rotate-3 animate-spin duration-700 rounded-2xl'></div>
                           <div className='bg-white border relative z-10 shadow-md py-4 px-2 overflow-hidden rounded-xl hover:scale-95 duration-700'>
                           <img src={pattern} className='absolute object-cover opacity-5'/>
                             <div data-aos="zoom-in" className='lg:py-16 md:py-16 relative py-8 px-10 flex justify-center hover:scale-105 rounded-2xl mb-2'>
@@ -32,9 +33,10 @@ const Recent = () => {
                  </div>
                  </Link>
                   
-                   {/* 2 */}
+                 {/* 2 */}
+                <Link to={"/hackatsina"}>
                  <div dat-aos="flip-right" className='lg:px-24 md:px-0 p-1 relative  z-0'>
-                           <div className='bg-green absolute lg:h-[60vh] md:h-[45vh] lg:w-[60%] md:w-[100%] w-full -mt-4 rotate-3 animate-spin duration-700 rounded-2xl'></div>
+                           <div className='bg-carrot absolute lg:h-[60vh] md:h-[45vh] lg:w-[60%] md:w-[100%] w-full -mt-4 rotate-3 animate-spin duration-700 rounded-2xl'></div>
                           <div className='bg-white border relative z-10 shadow-md py-4 px-2 overflow-hidden rounded-xl hover:scale-95 duration-700'>
                           <img src={com} className='absolute object-cover opacity-5'/>
                             <div data-aos="zoom-in" className='lg:py-12 md:py-16 gap-2 items-center relative py-4 px-10 flex justify-center hover:scale-105 rounded-2xl mb-2'>
@@ -48,9 +50,11 @@ const Recent = () => {
                           <div className='flex justify-center'><button className='outline-none py-3 px-6 hover:scale-105 rounded-xl bg-carrot text-white'>Apply Now</button></div>
                           </div>
                  </div>
+                 </Link>
                 </div>
            </div>
          </div>
+         <Footer/>
     </div>
   )
 }

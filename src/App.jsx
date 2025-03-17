@@ -8,6 +8,7 @@ import Wedo from './components/Wedo'
 import Allworks from './components/Allworks'
 import Recent from './pages/Update/Recent'
 import Ktlevelup from './components/Ktlevelup'
+import Hakck from './components/Hakck'
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/more" element={<Wedo/>}/>
           <Route path="/all works" element={<Allworks/>}/>
           <Route path="/levelup" element={<Ktlevelup/>}/>
+          <Route path="/hackatsina" element={<Hakck/>}/>
      </Routes>
    </BrowserRouter>
   )

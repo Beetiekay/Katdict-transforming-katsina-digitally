@@ -16,9 +16,9 @@ const Works = () => {
         <div className='flex justify-center mb-16'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>TO SHAPE THE FUTURE OF<span className='text-green'> KATSINA</span>  TODAY </h1></div>
 
         <div >
-              <div className='py-2 relative flex justify-end lg:px-16 md:px-5 px-0 text-green'><Link to={"/all works"} className=' py-2 px-4'>See All</Link></div>
+            <div className='py-2 relative flex justify-end lg:px-16 md:px-5 px-0 text-green'><Link to={"/all works"} className=' py-2 px-4'>See All</Link></div>
           <div className='w-full overflow-x-scroll relative'> 
-            <div className='lg:w-[100%] md:w-[170vw] w-[200vw] grid grid-cols-3  gap-5 lg:px-52 md:px-5 px-1 mb-10'>
+            <div className='lg:w-[100%] md:w-[170vw] w-[220vw] grid grid-cols-3  gap-5 lg:px-52 md:px-5 px-1 mb-10'>
                 <Cardw 
                 image={image3} 
                 tittle="Eye On Katsina" 
@@ -44,9 +44,12 @@ const Works = () => {
          <div className='bg-whitegray w-full h-6 relative -top-4'></div>
         </div>
 
-           <h1 className='font-semibold py-4 pt-16 text-lg lg:text-center md:text-center text-start opacity-85'>
-            Join Us in Crafting our <Link to={"#"} className='text-lg text-green'>Digital Legacy!</Link>
+           <div className='flex justify-center py-6 mb-4'>
+           <h1 className='font-semibold py-4 pt-16 lg:text-4xl md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>
+            Join Us in Crafting our <Link to={"#"} className='lg:text-4xl md:text-lg text-smlg:text-4xl md:text-lg text-sm text-green'>Digital Legacy!</Link>
            </h1>
+           </div>
+
         </div>
     </div>
   )

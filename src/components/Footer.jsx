@@ -30,10 +30,10 @@ const Footer = () => {
                   <div >
                     <h1 data-aos="zoom-in" className='text-lg font-semibold text-white opacity-80 mb-2'>Follow Us</h1>
                     <div className='flex gap-2 text-white opacity-80'>
-                        <FaInstagram size={25} data-aos="zoom-in"  className='hover:scale-110 duration-700 cursor-pointer'/>
-                        <FaFacebook size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/>
-                        <FaLinkedin size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/>
-                        <FaTwitter size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/>
+                        <a href='https://www.instagram.com/katdict?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target='_blank'><FaInstagram size={25} data-aos="zoom-in"  className='hover:scale-110 duration-700 cursor-pointer'/></a>
+                        <a href='https://www.facebook.com/katdict/reviews' target='_blank'><FaFacebook size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/></a>
+                        <a href='https://www.tiktok.com/@katdict?fbclid=IwY2xjawJFEpJleHRuA2FlbQIxMAABHTEJYFQCw6WRjL7xkQ-Nw4ApTDpqlqWjR-cbpVog_BULZDCfvbr1I1QweQ_aem_TgjOtn5otGKht-cao7e-HA' target='_blank'><FaLinkedin size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/></a>
+                        <a href='https://x.com/katdict?fbclid=IwY2xjawJFEytleHRuA2FlbQIxMAABHULDOGQ9apz3Nj1gnyH-3ufG2we-2qJDp2LDhHSgh0XA0qKcDIQcZeon6Q_aem_aSluChISL6PmH1Qi90qErA' target='_blank'><FaTwitter size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/></a>
                     </div>
                     </div>
                 </div>

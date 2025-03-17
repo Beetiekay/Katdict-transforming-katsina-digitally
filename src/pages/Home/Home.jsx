@@ -7,6 +7,7 @@ import Footer from '../../components/Footer'
 //aos
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom'
 
 const Home = () => {
    useEffect(() => {
@@ -14,7 +15,7 @@ const Home = () => {
    }) 
 
   return (
-    <div className='w-full lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh] bg-green bg-opacity-30 overflow-x-hidden'>
+    <div className='w-full lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh] bg-green bg-opacity-30 overflow-hidden'>
      <img src={bg} className='w-full h-[100vh] absolute top-0 saturate-0 object-cover opacity-20 blur-[1.3px]'/>
       <div>
          <div className='absolute z-20'><Navigation/></div>
@@ -25,7 +26,7 @@ const Home = () => {
            <div className='flex justify-center mb-10 lg:px-0 md:px-0 px-5'><p data-aos="fade-up" className='opacity-70 lg:text-xl md:text-lg text-sm lg:text-center md:text-center text-start font-semibold mb-2'>The advance of technology is based on making it fit in so that you don't<br className='lg:flex md:flex hidden'/>even notice it's part of everyday life.</p></div>
             
             <div className='flex justify-center'>
-              <div className='lg:w-52 md:w-56 w-72' data-aos="flip-right"><button className='bg-green text-white py-4 w-full rounded-2xl outline-none'>Know More</button></div>
+              <div className='lg:w-52 md:w-56 w-72' data-aos="flip-right"><Link to={"/"}><button className='bg-green text-white py-4 w-full rounded-2xl outline-none'>Know More</button></Link></div>
             </div>
           </div>
          </div>

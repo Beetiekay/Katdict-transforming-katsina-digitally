@@ -41,7 +41,7 @@ const Footer = () => {
                 <p className='lg:text-lg md:text-lg text-sm lg:flex gap-2 hidden  text-white'>Copyright@ 2025 <span className='text-black font-semibold'>KATDICT</span> AllRights Reserved</p>
             </div>
 
-            <div className='lg:mt-24 md:mt-8 mt-0'>
+            <div className='lg:mt-24 md:mt-8 -mt-10'>
                {/* usefull Links */}
                <div className='flex justify-between flex-wrap  mb-4 py-2 lg:px-8 md:px-5 px-2'>
                  <div data-aos="zoom-in" className='lg:mb-0 md:mb-0 mb-2 grid grid-cols-1 space-y-2'>

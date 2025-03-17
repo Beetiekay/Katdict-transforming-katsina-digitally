@@ -9,11 +9,12 @@ import Footer from '../../components/Footer'
 
 const Recent = () => {
   return (
-    <div>
+    <div className='w-[100%] min-h-[100vh] overflow-hidden'>
+      <div>
         <div className='absolute z-20'><Navigation/></div>
-         <div className='w-full h-[100vh] flex items-center justify-center'>
+         <div className='w-full flex items-center  justify-center'>
            <div>
-           <p data-aos="fade-right" className='font-semibold lg:py-4 md:py-4 mt-24 mb-8 py-1 pt-16 lg:text-4xl md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>Recent <span className='text-green'>Updates</span></p>
+           <p data-aos="fade-right" className='font-semibold lg:py-4 md:py-4 mt-24 mb-8 py-1 pt-16 lg:text-4xl md:text-2xl text-2xl text-center opacity-85'>Recent <span className='text-green'>Updates</span></p>
                 <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 lg:px-36 md:px-8 px-1 mb-10'>
                  {/* 1 */}
                  <Link to={"/levelup"}>
@@ -55,6 +56,7 @@ const Recent = () => {
            </div>
          </div>
          <Footer/>
+         </div>
     </div>
   )
 }

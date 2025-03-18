@@ -19,12 +19,14 @@ const Works = () => {
             <div className='py-2 relative flex justify-end lg:px-16 md:px-5 px-0 text-green'><Link to={"/all works"} className=' py-2 px-4'>See All</Link></div>
           <div className='w-full overflow-x-scroll relative'> 
             <div className='lg:w-[100%] md:w-[170vw] w-[220vw] grid grid-cols-3  gap-5 lg:px-52 md:px-5 px-1 mb-10'>
+                <Link to={"/eyeonkt"}>
                 <Cardw 
                 image={image3} 
                 tittle="Eye On Katsina" 
                 desc="Capacity Building And Training"
                 paragh="The Prospect for a company operating in this new market are varied and exciting. The potencial..."
                 />
+                </Link>
 
                <Cardw 
                 image={image2} 

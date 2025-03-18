@@ -11,12 +11,14 @@ const Allworks = () => {
     <div className='py-6 lg:px-8 md:px-8 px-0'>
           <div className='w-full relative'> 
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:px-24 md:px-5 px-1 mb-10'>
+              <Link to={"/eyeonkt"}>
                 <Cardw 
                 image={image3} 
                 tittle="Eye On Katsina" 
                 desc="Capacity Building And Training"
                 paragh="The Prospect for a company operating in this new market are varied and exciting. The potencial..."
                 />
+                </Link>
 
                <Cardw 
                 image={image2} 

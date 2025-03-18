@@ -10,6 +10,7 @@ import Recent from './pages/Update/Recent'
 import Ktlevelup from './components/Ktlevelup'
 import Hakck from './components/Hakck'
 import Eyeonkt from './components/Eyeonkt'
+import Kdb from './components/Kdb'
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/more" element={<Wedo/>}/>
           <Route path="/all works" element={<Allworks/>}/>
           <Route path="/eyeonkt" element={<Eyeonkt/>}/>
+          <Route path="/kdb" element={<Kdb/>}/>
           <Route path="/levelup" element={<Ktlevelup/>}/>
           <Route path="/hackatsina" element={<Hakck/>}/>
      </Routes>

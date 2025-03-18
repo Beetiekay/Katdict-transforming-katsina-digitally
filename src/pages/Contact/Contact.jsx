@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
               </div>
              
-                <div className='flex justify-center mb-4'><div className='lg:w-[100%] md:w-[90%] w-[45%] scale-110  rounded-2xl overflow-hidden'><Map/></div></div>
+                <div className='flex justify-center mb-4'><div className='lg:w-[100%] md:w-[90%] w-[45%] scale-125  rounded-2xl overflow-hidden'><Map/></div></div>
              </div>
            </div>
          </div>

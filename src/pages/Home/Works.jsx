@@ -27,13 +27,15 @@ const Works = () => {
                 paragh="The Prospect for a company operating in this new market are varied and exciting. The potencial..."
                 />
                 </Link>
-
+                 
+                <Link to={"/kdb"}>
                <Cardw 
                 image={image2} 
                 tittle="Katsina Digital Bridge" 
                 desc="Capacity Building And Training"
                 paragh="The Prospect for a company operating in this new market are varied and exciting. The potencial..."
                 />
+                </Link>
 
                <Cardw 
                 image={image1} 

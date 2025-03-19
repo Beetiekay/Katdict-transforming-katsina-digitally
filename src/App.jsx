@@ -11,6 +11,7 @@ import Ktlevelup from './components/Ktlevelup'
 import Hakck from './components/Hakck'
 import Eyeonkt from './components/Eyeonkt'
 import Kdb from './components/Kdb'
+import Katsinadts from './components/Katsinadts'
 
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/more" element={<Wedo/>}/>
           <Route path="/all works" element={<Allworks/>}/>
           <Route path="/eyeonkt" element={<Eyeonkt/>}/>
+          <Route path="/ktdatasolution" element={<Katsinadts/>}/>
           <Route path="/kdb" element={<Kdb/>}/>
           <Route path="/levelup" element={<Ktlevelup/>}/>
           <Route path="/hackatsina" element={<Hakck/>}/>

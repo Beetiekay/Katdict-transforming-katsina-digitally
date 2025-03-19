@@ -28,13 +28,15 @@ const Allworks = () => {
                 paragh="The Prospect for a company operating in this new market are varied and exciting. The potencial..."
                 />
                 </Link>
-
+               
+               <Link to={"/ktdatasolution"}>
                <Cardw 
                 image={image1} 
                 tittle="Katsina Data Solution" 
                 desc="Capacity Building And Training"
                 paragh="The Prospect for a company operating in this new market are varied and exciting. The potencial..."
                 />
+                </Link>
 
               <Cardw 
                 image={image4} 

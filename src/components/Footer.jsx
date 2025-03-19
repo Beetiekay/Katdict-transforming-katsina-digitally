@@ -43,7 +43,7 @@ const Footer = () => {
 
             <div className='lg:mt-24 md:mt-8 -mt-10'>
                {/* usefull Links */}
-               <div className='flex justify-between flex-wrap  mb-4 py-2 lg:px-8 md:px-5 px-2'>
+               <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1  mb-4 py-2 lg:px-8 md:px-5 px-2'>
                  <div data-aos="zoom-in" className='lg:mb-0 md:mb-0 mb-2 grid grid-cols-1 space-y-2'>
                    <h1 className='lg:text-3xl md:text-3xl text-2xl mb-2 text-white'>Support Links</h1>
 

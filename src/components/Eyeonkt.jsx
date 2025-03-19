@@ -3,16 +3,15 @@ import imagelayer from "../assets/vadoo.jpg"
 import Navigation from './Navigation'
 import { MdGppGood, MdMail } from 'react-icons/md'
 import { FaArrowRight, FaChevronCircleDown, FaFacebook, FaGoodreads } from 'react-icons/fa'
+import Footer from './Footer'
 
 const Eyeonkt = () => {
   return (
-    <div className='lg:overflow-visible md:overflow-visible overflow-y-scroll h-[100vh]'>
-     <div className='w-[100%] h-[100vh] bg-seagreen  bg-opacity-35 relative '>
-        <img src={imagelayer} className='w-full h-[100vh] absolute top-0 saturate-0 object-cover opacity-15'/>
-        <div className='h-full'>
-        <div className='relative '>
+     <div className='w-full min-h-full relative  overflow-hidden'>
+        <img src={imagelayer} className='w-full h-[100vh] absolute top-0 hue-rotate-180  object-cover opacity-75'/>
+        <div className='w-full h-full relative'>
         <div className='absolute z-20'><Navigation/></div>
-          <div className='py-40'>
+          <div className='py-40 lg:h-[99.8vh] md:h-[99.8vh] h-[97vh] bg-black bg-opacity-35'>
             
             <h1 className='lg:text-7xl md:text-7xl text-white text-4xl text-center font-semibold mb-14'>How innovation drives
             research and development
@@ -21,27 +20,27 @@ const Eyeonkt = () => {
             <div className='w-full lg:overflow-visible md:overflow-visible overflow-x-auto lg:px-0 md:px-0 px-2'>
             <div className='grid grid-cols-2 gap-4 lg:w-fit md:w-fit w-[180vw] lg:mb-0 md:mb-0 mb-4'>
                 <div data-aos="flip-right" className='bg-white py-6 px-4 lg:rounded-none md:rounded-none rounded-2xl'>
-                    <h1 className='bg-green py-2 px-3 text-white lg:text-2xl md:text-2xl text-lg lg:w-44 md:w-44 w-28 mb-4'>Overview</h1>
+                    <h1 className='bg-green py-2 px-3 lg:rounded-none md:rounded-none rounded-xl text-white lg:text-2xl md:text-2xl text-lg lg:w-44 md:w-44 w-28 mb-4'>Overview</h1>
                     <p className='lg:text-2xl md:text-2xl text-lg mb-6'>
                     Using a laptop computer, Smartphone or iPad has become an essential part of everyday life for many people.
                     </p>
 
-                    <p className='lg:text-xl md:text-xl text-lg bg-green text-white py-2 px-2 lg:w-32 md:w-32 w-28 mb-2'>Louis Smirf</p>
+                    <p className='lg:text-xl md:text-xl text-lg lg:rounded-none md:rounded-none rounded-xl bg-green text-white py-2 px-2 lg:w-32 md:w-32 w-28 mb-2'>Louis Smirf</p>
                     <h4 className='text-black opacity-40'>/ Design Leader – Aqua Group</h4>
                 </div>
 
                 <div data-aos="flip-up" className='bg-white bg-opacity-35 lg:rounded-none md:rounded-none rounded-2xl py-6 px-4'>
-                    <p className='text-sm mb-4'>
+                    <p className='text-sm mb-4 text-whitegray'>
                     From its founding in 1990 in Cambridge in the UK, it has grown to become a major developer of digital electronic products. The company has offices around the world, including design centres in the UK, USA, India, Scandinavia, France and China.
                     </p>
 
-                    <div className='bg-green text-white px-2 py-2 flex justify-between border-b-4 border-white'>
+                    <div className='bg-green lg:rounded-none md:rounded-none rounded-xl text-white px-2 py-2 flex justify-between border-b-4 border-white'>
                         <p className=''>TAGS</p>
 
                         <a href='https://katdict.ng/case-study-tag/basic/' target='_blank'>Basic</a>
                     </div>
 
-                    <div className='bg-green text-white px-2 py-2 flex justify-between'>
+                    <div className='bg-green lg:rounded-none md:rounded-none rounded-xl text-white px-2 py-2 flex justify-between'>
                         <p className=''>SHARE</p>
                          
                         <div className='flex items-center gap-4'>
@@ -55,12 +54,8 @@ const Eyeonkt = () => {
             </div>
 
           </div>
-        </div>
-    
-        </div>
-         <div>
-            {/* another section */}
-            <div className='lg:px-8 md:px-8 px-2 py-6 grid  lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 mb-6 border-b-2 relative lg:top-0 md:top-28 top-0 border-green'>
+           
+        <div className='lg:px-8 md:px-8 px-2 py-6 grid  lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 mb-6 border-b-2 relative lg:top-0 md:top-28 top-0 border-green'>
             <div >
             <h1 className='lg:text-5xl md:text-5xl text-2xl mb-4 text-green lg:px-4 md:px-4 px-2 font-semibold'>Requirements</h1>
             <div className='lg:flex md:flex block gap-4'>
@@ -77,7 +72,7 @@ const Eyeonkt = () => {
              </div>
             </div>
 
-         </div>
+          </div>
 
          <div className='lg:px-8 md:px-8 px-2 py-6 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 relative lg:top-0 md:top-28 top-0  gap-6 mb-6 border-b-2 border-green'>
             <div>
@@ -128,8 +123,8 @@ const Eyeonkt = () => {
 
          <div className='lg:px-48 md:px-10 px-2 gap-6 grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 mb-6'>
             <div  className='relative mb-4'>
-              <input type='checkbox' className='w-40 h-6 z-10 absolute opacity-0 peer transition-transform'/>
-              <div className=' peer-checked:text-green peer-checked:rotate-180 absolute'><FaChevronCircleDown size={25}/></div>
+              <input type='checkbox' className='w-40 h-6 z-10 cursor-pointer absolute opacity-0 peer transition-transform'/>
+              <div className=' peer-checked:text-green peer-checked:rotate-180 top-1 absolute'><FaChevronCircleDown size={22}/></div>
               <div className=' peer-checked:text-green'><h1 className='lg:text-xl md:text-xl text-lg font-semibold px-8'>New Multiple Site Connectivity</h1></div>
               <div className='px-2 py-2 duration-500 hidden peer-checked:block'>
                 <p>
@@ -139,8 +134,8 @@ const Eyeonkt = () => {
             </div>
 
             <div className='relative mb-4'>
-              <input type='checkbox' className='w-40 h-6 z-10 absolute opacity-0 peer transition-transform'/>
-              <div className=' peer-checked:text-green peer-checked:rotate-180 absolute'><FaChevronCircleDown size={25}/></div>
+              <input type='checkbox' className='w-40 h-6 z-10 cursor-pointer absolute opacity-0 peer transition-transform'/>
+              <div className=' peer-checked:text-green top-1 peer-checked:rotate-180 absolute'><FaChevronCircleDown size={22}/></div>
               <div className=' peer-checked:text-green'><h1 className='lg:text-xl md:text-xl text-lg font-semibold px-8'>IT Security & Software</h1></div>
               <div className='px-2 py-2 duration-500 hidden peer-checked:block'>
                 <p>
@@ -150,8 +145,8 @@ const Eyeonkt = () => {
             </div>
             
             <div className='relative mb-4'>
-              <input type='checkbox' className='w-40 h-6 z-10 absolute opacity-0 peer transition-transform'/>
-              <div className=' peer-checked:text-green peer-checked:rotate-180 absolute'><FaChevronCircleDown size={25}/></div>
+              <input type='checkbox' className='w-40 h-6 z-10 cursor-pointer absolute opacity-0 peer transition-transform'/>
+              <div className=' peer-checked:text-green top-1 peer-checked:rotate-180 absolute'><FaChevronCircleDown size={22}/></div>
               <div className=' peer-checked:text-green'><h1 className='lg:text-xl md:text-xl text-lg font-semibold px-8'>Weak Hosted Capability</h1></div>
               <div className='px-2 py-2 duration-500 hidden peer-checked:block'>
                 <p>
@@ -161,8 +156,8 @@ const Eyeonkt = () => {
             </div>
 
             <div className='relative mb-4'>
-              <input type='checkbox' className='w-40 h-6 z-10 absolute opacity-0 peer transition-transform'/>
-              <div className=' peer-checked:text-green peer-checked:rotate-180 absolute'><FaChevronCircleDown size={25}/></div>
+              <input type='checkbox' className='w-40 h-6 cursor-pointer z-10 absolute opacity-0 peer transition-transform'/>
+              <div className='top-1 peer-checked:text-green peer-checked:rotate-180 absolute'><FaChevronCircleDown size={22}/></div>
               <div className=' peer-checked:text-green'><h1 className='lg:text-xl md:text-xl text-lg font-semibold px-8'>Build Internet Network</h1></div>
               <div className='px-2 py-2 duration-500 hidden peer-checked:block'>
                 <p>
@@ -171,10 +166,9 @@ const Eyeonkt = () => {
               </div>
             </div>
          </div>
-
+         <Footer/>
         </div>
      </div>  
-    </div>
   )
 }
 

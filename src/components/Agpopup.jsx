@@ -21,9 +21,9 @@ const Agpopup = () => {
         {
          open &&(
          <div className='w-full h-full flex justify-center transition-all fixed peer-checked:hidden items-center backdrop-blur-sm top-0 z-50 bg-green bg-opacity-50'>
-          <div className='lg:w-[30%] md:w-[70%] w-[90%] relative lg:h-[74vh] md:h-[48vh] h-[64vh] bg-white rounded-xl p-2'>
+          <div className='lg:w-[30%] md:w-[70%] w-[90%] relative lg:h-[74vh] md:h-[48vh] h-fit bg-white rounded-xl p-2'>
             <div onClick={() => setOpen(false)} className='flex justify-end cursor-pointer z-30 transition-transform duration-300 relative'>
-              <button className='bg-green rounded-full text-white hover:scale-110'><MdOutlineClose size={35} className=' rounded-full p-2'/></button>
+              <button className='lg:text-4xl md:text-4xl text-4xl text-green hover:scale-110'><MdOutlineClose  className=' rounded-full p-2'/></button>
             </div>
             <div className='absolute flex justify-center w-full -top-12'><button className='bg-green p-3 py-4 outline-none border-4 border-white rounded-full'><img src={logo} className='lg:w-20 md:w-20 w-14'/></button></div>
 
@@ -40,7 +40,7 @@ const Agpopup = () => {
                  
                 <div className='lg:px-6 md:px-6 px-2'><p className='text-xl text-center font-semibold px-8 border-x-4 border-green'>Beyond The Surface, A World Of Possibilities.</p></div>
 
-                 <div className='flex justify-center items-center mt-10'><button onClick={() => setOpen(false)} className='py-3 px-8 rounded-2xl font-semibold text-xl bg-green text-white'>Continue</button></div>
+                 <div className='flex justify-center items-center mt-10'><button onClick={() => setOpen(false)} className='lg:py-3 md:py-3 py-3 lg:px-8 md:px-8 px-6 rounded-xl font-semibold lg:text-xl md:text-xl text-sm bg-green text-white'>Continue</button></div>
             </div>
          </div>
         </div>

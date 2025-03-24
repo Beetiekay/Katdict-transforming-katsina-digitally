@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 import Downlaod from '../../components/Downlaod'
 import Footer from '../../components/Footer';
 import Details from './Details';
-import katdict from "../../assets/katdict3.jpg"
 
 //aos
 import AOS from 'aos';

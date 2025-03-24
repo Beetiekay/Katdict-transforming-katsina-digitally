@@ -36,11 +36,11 @@ const Agpopup = () => {
                </Marquee>
                </div>
               
-                <h1 className='lg:text-6xl md:text-6xl text-6xl mb-16 text-green text-center font-bold mt-2'>Welcome To Katdict !</h1>
+                <h1 className='lg:text-6xl md:text-6xl text-4xl mb-16 text-green text-center font-bold mt-2'>Welcome To Katdict !</h1>
                  
                 <div className='lg:px-6 md:px-6 px-2'><p className='text-xl text-center font-semibold px-8 border-x-4 border-green'>Beyond The Surface, A World Of Possibilities.</p></div>
 
-                 <div className='flex justify-center items-center mt-10'><button className='py-3 px-8 rounded-2xl font-semibold text-xl bg-green text-white'>Continue</button></div>
+                 <div className='flex justify-center items-center mt-10'><button onClick={() => setOpen(false)} className='py-3 px-8 rounded-2xl font-semibold text-xl bg-green text-white'>Continue</button></div>
             </div>
          </div>
         </div>

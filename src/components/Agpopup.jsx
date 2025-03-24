@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { MdOutlineClose } from 'react-icons/md';
 import logo from "../assets/katdict.png";
 import katdict from "../assets/kat.png";
@@ -6,6 +6,16 @@ import Marquee from 'react-fast-marquee';
 
 const Agpopup = () => {
     const [open, setOpen] = useState(true);
+
+    useEffect(() => {
+    setOpen(false)
+
+    setTimeout(() => {
+    setOpen(true)
+
+    }, 5000);
+  },[])
+      
   return (
     <div>
         {

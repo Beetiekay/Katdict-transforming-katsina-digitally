@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Navigation from '../../components/Navigation'
 import Abt from './Abt';
-import Team from './Team';
 import Faqs from './Faqs';
 
 

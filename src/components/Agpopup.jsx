@@ -21,7 +21,7 @@ const Agpopup = () => {
         {
          open &&(
          <div className='w-full h-full flex justify-center transition-all fixed peer-checked:hidden items-center backdrop-blur-sm top-0 z-50 bg-green bg-opacity-50'>
-          <div className='lg:w-[30%] md:w-[70%] w-[90%] relative lg:h-[74vh] md:h-[48vh] h-fit bg-white rounded-xl p-2'>
+          <div className='lg:w-[30%] md:w-[70%] w-[85%] relative lg:h-[74vh] md:h-[48vh] h-fit bg-white rounded-xl p-2'>
             <div onClick={() => setOpen(false)} className='flex justify-end cursor-pointer z-30 transition-transform duration-300 relative'>
               <button className='lg:text-4xl md:text-4xl text-4xl text-green hover:scale-110'><MdOutlineClose  className=' rounded-full p-2'/></button>
             </div>

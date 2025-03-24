@@ -12,6 +12,7 @@ import Hakck from './components/Hakck'
 import Eyeonkt from './components/Eyeonkt'
 import Kdb from './components/Kdb'
 import Katsinadts from './components/Katsinadts'
+import Agpopup from './components/Agpopup'
 
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
           <Route path="/levelup" element={<Ktlevelup/>}/>
           <Route path="/hackatsina" element={<Hakck/>}/>
      </Routes>
+     <Agpopup/>
    </BrowserRouter>
   )
 }

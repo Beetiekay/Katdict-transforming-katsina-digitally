@@ -36,7 +36,7 @@ const Agpopup = () => {
                </Marquee>
                </div>
               
-                <h1 className='lg:text-6xl md:text-6xl text-4xl mb-16 text-green text-center font-bold mt-2'>Welcome To Katdict !</h1>
+                <h1 className='lg:text-6xl md:text-6xl text-6xl mb-16 text-green text-center font-bold mt-2'>Welcome To Katdict !</h1>
                  
                 <div className='lg:px-6 md:px-6 px-2'><p className='text-xl text-center font-semibold px-8 border-x-4 border-green'>Beyond The Surface, A World Of Possibilities.</p></div>
 

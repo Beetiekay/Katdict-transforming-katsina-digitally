@@ -21,7 +21,7 @@ const Visionandmissions = () => {
         {/* line */}
         <div data-aos="fade-up" className=' grid grid-cols-3 mb-5'>
           <div className='text-green'><hr/></div>
-          <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><TfiTarget size={25} className='text-green lg:text-lg md:text-sm'/></div><p className=' text-center lg:text-lg md:text-lg text-[14px]'>OUR <span className='text-green'>FORESIGHT</span></p></div>
+          <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><TfiTarget size={25} className='text-green lg:text-lg md:text-sm'/></div><p className=' dark:text-white text-center lg:text-lg md:text-lg text-[14px]'>OUR <span className='text-green'>FORESIGHT</span></p></div>
           <div className='text-green'><hr/></div>
         </div>
 
@@ -37,7 +37,7 @@ const Visionandmissions = () => {
         </div>
           
         {/* line */}
-        <div data-aos="fade-up" className=' grid grid-cols-3 mb-12'>
+        <div data-aos="fade-up" className='dark:text-white grid grid-cols-3 mb-12'>
           <div className='text-green'><hr/></div>
           <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><FaLocationArrow size={25} className='text-green lg:text-lg md:text-sm'/></div><p className='text-center lg:text-lg md:text-lg text-[14px]'>OUR <span className='text-green'>MISSSIONS</span></p></div>
           <div className='text-green'><hr/></div>
@@ -54,7 +54,7 @@ const Visionandmissions = () => {
         </div>
           
          {/* line */}
-         <div data-aos="fade-up" className=' grid grid-cols-3 mb-12'>
+         <div data-aos="fade-up" className='dark:text-white grid grid-cols-3 mb-12'>
           <div className='text-green'><hr/></div>
           <div className='lg:flex md:flex block justify-center  gap-4 items-center'><div className='flex justify-center'><FaStar size={25} className='text-green lg:text-lg md:text-sm'/></div><p className='text-center lg:text-lg md:text-lg text-[14px]'>CORE <span className='text-green'>VALUES</span></p></div>
           <div className='text-green'><hr/></div>
@@ -64,47 +64,47 @@ const Visionandmissions = () => {
          <div className='w-[100%] grid lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-8 lg:px-8 md:px-8 px-0 mb-5'>
           <div>
 
-           <div data-aos="fade-up" className='shadow-md bg-white relative rounded-xl mb-6 overflow-hidden'>
+           <div data-aos="fade-up" className='shadow-md bg-white dark:bg-opacity-15 relative rounded-xl mb-6 overflow-hidden'>
             <input type='checkbox' className='peer absolute right-4 top-5 z-20 transition-transform w-8 h-8 cursor-pointer opacity-0'/>
             <div className='transition-all peer-checked:rotate-0 rotate-180 duration-500 text-whit absolute text-white right-4 top-5 lg:text-[1.6rem] md:text-[1.6rem] text-[0.8]' ><FaChevronDown /></div>
             <div className='bg-green py-4 rounded-t-2xl'><h1 className='lg:text-2xl md:text-2xl text-lg text-white px-4'>Innovation</h1></div>
              {/* drp down*/}
              <div className='py-4 px-4 block peer-checked:hidden duration-500'>
-               <p className='lg:text-lg md:text-lg text-sm mb-4'>Through Innovation, we dare to improve how things are done, embracing fresh ideas and cutting-edge solutions to push the boundaries of what's possible.</p>
+               <p className='lg:text-lg dark:text-white md:text-lg text-sm mb-4'>Through Innovation, we dare to improve how things are done, embracing fresh ideas and cutting-edge solutions to push the boundaries of what's possible.</p>
              </div>
            </div> 
            
-           <div data-aos="fade-up" className='shadow-md bg-white relative rounded-xl mb-6 overflow-hidden'>
+           <div data-aos="fade-up" className='shadow-md dark:bg-opacity-15 bg-white relative rounded-xl mb-6 overflow-hidden'>
             <input type='checkbox' className='peer absolute right-4 top-5 z-20 transition-transform w-8 h-8 cursor-pointer opacity-0'/>
             <div className='transition-all peer-checked:rotate-180 duration-500 text-whit absolute text-white right-4 top-5 lg:text-[1.6rem] md:text-[1.6rem] text-[0.8]' ><FaChevronDown /></div>
             <div className='bg-green py-4 rounded-t-2xl'><h1 className='lg:text-2xl md:text-2xl text-lg text-white px-4'>Excelense</h1></div>
              {/* drp down*/}
              <div className='py-4 px-4 hidden peer-checked:block duration-500'>
-               <p className='lg:text-lg md:text-lg text-sm  mb-4'>
+               <p className='lg:text-lg dark:text-white md:text-lg text-sm  mb-4'>
                Excellence is our relentless pursuit. We strive for the highest standards in everything we do, delivering experiences that consistently exceed expectations.
                </p>
              </div>
            </div> 
 
-           <div data-aos="fade-up" className='shadow-md bg-white relative rounded-xl mb-6 overflow-hidden'>
+           <div data-aos="fade-up" className='shadow-md dark:bg-opacity-15 bg-white relative rounded-xl mb-6 overflow-hidden'>
             <input type='checkbox' className='peer absolute right-4 top-5 z-20 transition-transform w-8 h-8 cursor-pointer opacity-0'/>
             <div className='transition-all peer-checked:rotate-180 duration-500 text-whit absolute text-white right-4 top-5 lg:text-[1.6rem] md:text-[1.6rem] text-[0.8]' ><FaChevronDown /></div>
             <div className='bg-green py-4 rounded-t-2xl'><h1 className='lg:text-2xl md:text-2xl text-lg text-white px-4'>Collaboration</h1></div>
              {/* drp down*/}
              <div className='py-4 px-4 hidden peer-checked:block duration-500'>
-               <p className='lg:text-lg md:text-lg text-sm  mb-4'>
+               <p className='lg:text-lg dark:text-white md:text-lg text-sm  mb-4'>
                Collaboration is the fuel that ignites our collective brilliance. By working together, sharing knowledge, and fostering open communication, we achieve more than we ever could alone.
                </p>
              </div>
            </div> 
 
-           <div data-aos="fade-up" className='shadow-md bg-white relative rounded-xl overflow-hidden'>
+           <div data-aos="fade-up" className='shadow-md dark:bg-opacity-15 bg-white relative rounded-xl overflow-hidden'>
             <input type='checkbox' className='peer absolute right-4 top-5 z-20 transition-transform w-8 h-8 cursor-pointer opacity-0'/>
             <div className='transition-all peer-checked:rotate-180 duration-500 text-whit absolute text-white right-4 top-5 lg:text-[1.6rem] md:text-[1.6rem] text-[0.8]' ><FaChevronDown /></div>
             <div className='bg-green py-4 rounded-t-2xl'><h1 className='lg:text-2xl md:text-2xl text-lg text-white px-4'>Citizen-Centricity</h1></div>
              {/* drp down*/}
              <div className='py-4 px-4 hidden peer-checked:block duration-500'>
-               <p className='lg:text-lg md:text-lg text-sm  mb-4'>
+               <p className='lg:text-lg dark:text-white md:text-lg text-sm  mb-4'>
                Citizen-Centricity is the foundation on which we build. We are dedicated to understanding and serving the ever-evolving needs of our citizens, ensuring that technology empowers and uplifts their lives.
                </p>
              </div>

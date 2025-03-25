@@ -1,18 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  darkMode: 'class',
     content: [
       "./index.html",
       "./src/**/*.{js,ts,jsx,tsx}",
 ],
   theme: {
     extend: {
-      borderColor: theme => ({
-        DEFAULT: theme('color.gray,300', 'currentColor'),
-        'gray':'#8fbc8f',
-      }),
-      borderColor: theme => ({
-        'gray':'#a9a9a9',
-      }),
     },
     varients: {
       

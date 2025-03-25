@@ -13,11 +13,13 @@ import Eyeonkt from './components/Eyeonkt'
 import Kdb from './components/Kdb'
 import Katsinadts from './components/Katsinadts'
 import Agpopup from './components/Agpopup'
+import DarkTheme from './components/DarkTheme'
 
 
 export default function App() {
   return (
     <BrowserRouter>
+    <DarkTheme/>
      <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>

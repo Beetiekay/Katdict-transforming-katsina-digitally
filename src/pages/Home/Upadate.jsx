@@ -14,8 +14,8 @@ const Upadate = () => {
   return (
     <div className='w-[100%] min-h-[100vh]'>
        <div>
-       <p data-aos="fade-right" className='font-semibold lg:py-4 md:py-4 py-1 pt-16 lg:text-lg md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>RECENT <span className='text-green'>UPDATES</span></p>
-       <div className='flex justify-center mb-16'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>STAY INFORMED, <span className='text-green'> AS WE SHAPE TOMORROW</span> LEGACY.</h1></div>
+       <p data-aos="fade-right" className='font-semibold dark:text-white lg:py-4 md:py-4 py-1 pt-16 lg:text-lg md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>RECENT <span className='text-green'>UPDATES</span></p>
+       <div className='flex justify-center mb-16'><h1 data-aos="fade-up" className=' dark:text-white lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>STAY INFORMED, <span className='text-green'> AS WE SHAPE TOMORROW</span> LEGACY.</h1></div>
 
        <div className='w-full  relative'> 
        <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5 lg:px-36 md:px-8 px-1 mb-10'>

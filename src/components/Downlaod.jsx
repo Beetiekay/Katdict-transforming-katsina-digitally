@@ -28,8 +28,8 @@ const Downlaod = () => {
 
          <div className='flex items-center'>
            <div>
-           <p data-aos="fade-left" className='font-semibold lg:py-4 md:py-4 py-1  pt-16 text-start lg:text-lg md:text-lg text-sm opacity-85'>HOW DO WE <span className='text-green'> WORK?</span></p>
-           <div data-aos="fade-right"  className='flex justify-start mb-4'><h1 className=' lg:text-4xl md:text-4xl text-2xl font-semibold text-start mb-4'>DOWNLOAD OUR <span className='text-green'>DIGITAL<br className='lg:flex md:flex hidden'/> TRANSFORMATION STRATEGIC <br className='lg:flex md:flex hidden'/> BLUEPRINT.</span> </h1></div>
+           <p data-aos="fade-left" className='font-semibold dark:text-white lg:py-4 md:py-4 py-1  pt-16 text-start lg:text-lg md:text-lg text-sm opacity-85'>HOW DO WE <span className='text-green'> WORK?</span></p>
+           <div data-aos="fade-right"  className='flex dark:text-white justify-start mb-4'><h1 className=' lg:text-4xl md:text-4xl text-2xl font-semibold text-start mb-4'>DOWNLOAD OUR <span className='text-green'>DIGITAL<br className='lg:flex md:flex hidden'/> TRANSFORMATION STRATEGIC <br className='lg:flex md:flex hidden'/> BLUEPRINT.</span> </h1></div>
             <Button label={"Download Now (2MB)"}/>
         </div>
         </div>
@@ -40,14 +40,14 @@ const Downlaod = () => {
        <div className=' w-[100%] px-8 py-6'>
         <Marquee className='flex justify-center '>
           <div className='grid grid-cols-8 lg:gap-9 md:gap-9 gap-4 '>
-          <img src={slide1} className='w-24 h-12 object-cover bg-green p-2 px-4 rounded-2xl bg-opacity-20 '/>
-          <img src={slide2} className='w-20 bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
-          <img src={slide3} className='w-20  h-12 object-cover bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
-          <img src={slide4} className='w-32 bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
-          <img src={slide5} className='w-20 bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
-          <img src={slide6} className='w-32 bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
-          <img src={slide7} className='w-32 bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
-          <img src={slide8} className='w-32 bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
+          <img src={slide1} className='w-24 h-12 object-cover dark:bg-white bg-green p-2 px-4 rounded-2xl bg-opacity-20 '/>
+          <img src={slide2} className='w-20 dark:bg-white bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
+          <img src={slide3} className='w-20  h-12 object-cover dark:bg-white bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
+          <img src={slide4} className='w-32 dark:bg-white bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
+          <img src={slide5} className='w-20 dark:bg-white bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
+          <img src={slide6} className='w-32 dark:bg-white bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
+          <img src={slide7} className='w-32 dark:bg-white bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
+          <img src={slide8} className='w-32 dark:bg-white bg-green p-2 px-4 rounded-2xl bg-opacity-20'/>
           </div>
         </Marquee>
         </div>

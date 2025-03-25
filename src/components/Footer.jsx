@@ -4,6 +4,7 @@ import katdict from '../assets/kat2.png'
 import { FaFacebook, FaInstagram,FaLinkedin, FaTwitter } from 'react-icons/fa'
 import bg from "../assets/layerbg.png"
 import image from "../assets/kat.png";
+import image2 from "../assets/darkcurve.png";
 
 //aos
 import AOS from "aos";
@@ -22,7 +23,8 @@ const Footer = () => {
        <ScrollToTop smooth top={30} color='green' className='flex justify-center p-2'/>
 
       <div className='w-full relative'>
-        <img src={katdict} data-aos="zoom-out" className='w-full absolute lg:top-0 md:top-0 -top-[0.1rem] lg:object-fill md:object-fill object-cover'/>
+        <img src={katdict} data-aos="zoom-out" className='dark:hidden flex w-full absolute lg:top-0 md:top-0 -top-[0.1rem] lg:object-fill md:object-fill object-cover'/>
+        <img src={image2} data-aos="zoom-out" className='w-full absolute hidden dark:flex lg:top-0 md:top-0 -top-[0.1rem] lg:object-fill md:object-fill object-cover'/>
         <div className='grid lg:grid-cols-2 grid-cols-1 relative lg:px-28 md:px-16 px-5 py-10 gap-10'>  
             <div className='lg:mt-24 md:mt-24 mt-8'>
                <div className='flex justify-between flex-wrap mb-4 py-2'>

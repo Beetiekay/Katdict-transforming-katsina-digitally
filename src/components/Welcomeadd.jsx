@@ -28,17 +28,17 @@ const Welcomeadd = () => {
         </div>
         <div className='px-6 opacity-75 flex items-center'>
           <div>
-          <p className='text-lg mb-6'>
+          <p className='text-lg mb-6 dark:text-white'>
           <span className='text-green text-xl font-semibold'>Welcome to KATDICT – </span>the Katsina State Directorate of Information and Communication Technology, where we are pioneering the digital transformation of our beloved state.
           </p>
 
           <div>
-            <div className='px-4 py-2 rounded-lg border-x-4 border-green mb-7'>
+            <div className='px-4 py-2 rounded-lg border-x-4 dark:text-white border-green mb-7'>
                <p>
                <span data-aos="fade-up" className='text-green text-xl font-semibold'>At KATDICT,</span> we don’t just dream of a digital future; we craft it. We are committed to shaping the very essence of Katsina’s technological evolution, diving into a realm where innovation knows no bounds and accessibility is the key to unlocking solutions for the challenges we all face.
                </p>
             </div>
-            <p data-aos="fade-right" className=' lg:text-2xl md:text-xl font-semibold mb-6'><span className='text-green'>- Naufal Ahmad</span> Director General</p>
+            <p data-aos="fade-right" className='dark:text-white lg:text-2xl md:text-xl font-semibold mb-6'><span className='text-green'>- Naufal Ahmad</span> Director General</p>
 
             <Button label={"Read More"}/>
           </div>
@@ -47,8 +47,8 @@ const Welcomeadd = () => {
       </div>
         {/* Our Focus Areas */}
 
-         <p data-aos="fade-right" className='font-semibold lg:py-4 md:py-4 py-1 pt-16 lg:text-lg md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>WHAT WE <span className='text-green'>DO</span></p>
-         <div className='flex justify-center mb-4'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>We Are Crafting<span className='text-green'> Katsina's Digital</span> Legacy.</h1></div>
+         <p data-aos="fade-right" className='font-semibold dark:text-white lg:py-4 md:py-4 py-1 pt-16 lg:text-lg md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>WHAT WE <span className='text-green'>DO</span></p>
+         <div className='flex justify-center mb-4'><h1 data-aos="fade-up" className='dark:text-white lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>We Are Crafting<span className='text-green'> Katsina's Digital</span> Legacy.</h1></div>
 
          {/* cards */}
          <div className='py-2 text-lg flex justify-end lg:px-16 md:px-5 px-4 text-green'><Link to={"/more"}>See All</Link></div>
@@ -92,7 +92,7 @@ const Welcomeadd = () => {
             Request Our Service
            </button>
 
-           <button data-aos="fade-down" className='w-full py-4 border-2 rounded-lg border-green hover:translate-y-1 duration-700 ease-out transition-all hover:bg-green hover:text-white'>
+           <button data-aos="fade-down" className='w-full py-4 border-2 rounded-lg dark:text-white border-green hover:translate-y-1 duration-700 ease-out transition-all hover:bg-green hover:text-white'>
             Other Services
            </button>
          </div>

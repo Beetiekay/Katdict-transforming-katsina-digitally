@@ -7,11 +7,11 @@ import Footer from '../../components/Footer'
 
 const Contact = () => {
   return (
-    <div className='w-[100%] lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh]  overflow-x-hidden'>
+    <div className='w-[100%] dark:bg-black lg:min-h-[100vh] md:min-h-[100vh] min-h-[80vh]  overflow-x-hidden'>
         <div className='absolute z-20'><Navigation/></div>
           <div className='min-h-[100vh] w-[100%] lg:mt-16 md:mt-16 mt-24 flex justify-center items-center relative'>
             <div>
-            <h1 data-aos="fade-right" className='lg:text-4xl md:text-4xl text-2xl text-center font-semibold mb-6'>CONTACT <span className='text-green'>US</span></h1> 
+            <h1 data-aos="fade-right" className='lg:text-4xl dark:text-white md:text-4xl text-2xl text-center font-semibold mb-6'>CONTACT <span className='text-green'>US</span></h1> 
             <div >
              <div data-aos="fade-up" className=' flex justify-center px-5 mb-16'>
                <div className='space-y-2 py-5 lg:px-10 md:px-16 px-8 gap-6 rounded-2xl shadow-md bg-green grid lg:grid-cols-2 grid-cols-1'>

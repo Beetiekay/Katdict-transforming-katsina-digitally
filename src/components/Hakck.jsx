@@ -8,8 +8,8 @@ import refrence from "../assets/videos/hackatsina.mp4"
 
 const Hakck = () => {
   return (
-    <div data-aos="zoom-in" className='py-4 lg:px-24 md:px-8 px-2'>
-       <div>
+    <div  className='py-4 lg:px-24 h-[100vh] dark:bg-black md:px-8 px-2 overflow-hidden'>
+       <div data-aos="zoom-left" >
         <div className='flex justify-around items-center lg:py-4 md:py-4 py-2 border-b-2 mb-6 border-green'>
           <div className='flex items-center gap-2'>         
              <div><img src={image1} className='lg:w-32 md:w-28 w-16 object-fill'/></div>
@@ -43,7 +43,7 @@ const Hakck = () => {
           </div>
         </div>
          
-         <div className='flex justify-center mb-6'><p className='text-lg text-center'>Building The Next Generation <br/> Of Innovation</p></div>
+         <div className='flex dark:text-white justify-center mb-6'><p className='text-lg text-center'>Building The Next Generation <br/> Of Innovation</p></div>
 
          <div className='flex justify-center'>
           <div className='relative'>
@@ -67,7 +67,7 @@ const Hakck = () => {
        
         <div className='flex justify-center'>
           <div className=' lg:w-[27%] md:w-[60%] w-full px-2 text-lg flex gap-2 items-center'>
-          <h1>For More Info Visit</h1>
+          <h1 className='dark:text-white'>For More Info Visit</h1>
           <a href='https://hackkatsina.ng/' target='_blank' className='px-4 bg-hack text-white'>Hackkatsina.ng</a>
           </div>
         </div>

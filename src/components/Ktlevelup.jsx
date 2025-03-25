@@ -7,7 +7,7 @@ import levelup from "../assets/videos/levelup.mp4";
 
 const Ktlevelup = () => {
   return (
-    <div data-aos="zoom-out"  className='py-4 lg:px-24 md:px-8 px-2'>
+    <div data-aos="zoom-out"  className='py-4 lg:px-24 dark:bg-black md:px-8 px-2'>
         <div>
         <div className='flex justify-around items-center lg:py-4 md:py-4 py-2 border-b-2 mb-6 border-cobalt'>
             <div>
@@ -30,8 +30,8 @@ const Ktlevelup = () => {
 
          <div className='grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 mb-14 lg:px-0 md:px-0 px-4'>
           <div className='lg:mb-0 md:mb-0 mb-4'>
-           <p className='lg:text-xl md:text-xl text-sm font-semibold lg:mb-4 md:mb-4 mb-2'>Your Future Start Here !</p>
-           <h1 className='lg:text-5xl md:text-5xl text-3xl font-semibold text-cobalt'>Why You Should You <br/>Apply For LevelUp <br/><span className='text-black'>Katsina</span></h1>
+           <p className='lg:text-xl dark:text-white md:text-xl text-sm font-semibold lg:mb-4 md:mb-4 mb-2'>Your Future Start Here !</p>
+           <h1 className='lg:text-5xl md:text-5xl text-3xl font-semibold text-cobalt'>Why You Should You <br/>Apply For LevelUp <br/><span className='dark:text-white text-black'>Katsina</span></h1>
            </div>
 
            <div>
@@ -42,15 +42,15 @@ const Ktlevelup = () => {
           <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-6 lg:px-0 md:px-0 px-4'>
 
              <div className='py-4 px-2 rounded-2xl bg-midnightblue bg-opacity-15 hover:scale-105'>
-               <h1 className='lg:text-4xl md:text-4xl text-3xl font-semibold mb-2 text-cobalt'>Gain In-Demand <br className='lg:flex md:flex hidden'/>Digital Skills</h1>
-                <p>
+               <h1 className='lg:text-4xl  md:text-4xl text-3xl font-semibold mb-2 text-cobalt'>Gain In-Demand <br className='lg:flex md:flex hidden'/>Digital Skills</h1>
+                <p className='dark:text-white'>
                 92% of future jobs will require digital skills.Get trained in high-demand fields like Al, Data, and Blockchain.
                 </p>
              </div>
 
              <div className='py-4 px-2 rounded-2xl bg-midnightblue bg-opacity-15 hover:scale-105'>
                <h1 className='lg:text-4xl md:text-4xl text-3xl font-semibold mb-2 text-cobalt'>100% Free Training- <br className='lg:flex md:flex hidden'/> No Cost!</h1>
-                <p>
+                <p className='dark:text-white'>
                 No fees! This fully-funded training is sponsored for you.  Grab this opportunity before slots fill up!
 
                 </p>
@@ -58,14 +58,14 @@ const Ktlevelup = () => {
               
              <div className='py-4 px-2 rounded-2xl bg-midnightblue bg-opacity-15 hover:scale-105'>
                <h1 className='lg:text-4xl md:text-4xl text-3xl font-semibold mb-2 text-cobalt'>Certification & <br className='lg:flex md:flex hidden'/>Career Boost</h1>
-                <p>
+                <p className='dark:text-white'>
                 Earn a recognized certificate upon completion. Stand out in the job market with industry- relevant training.
                 </p>
              </div>
 
              <div className='py-4 px-2 rounded-2xl bg-midnightblue bg-opacity-15 hover:scale-105'>
                <h1 className='lg:text-4xl md:text-4xl text-3xl font-semibold mb-2 text-cobalt'>Connect with Experts <br className='lg:flex md:flex hidden'/> & Build Your Network</h1>
-                <p>
+                <p className='dark:text-white'>
                 Learn directly from industry experts and mentors. Expand your career opportunities with a strong network.
                 </p>
              </div>
@@ -79,7 +79,7 @@ const Ktlevelup = () => {
 
              <button className='px-4 py-2 mb-6 text-white bg-midnightblue rounded-b-xl'>Deadline 20th March, 2025</button>
 
-             <div className='py-2 flex gap-2 animate-pulse'><button className='font-semibold'>Apply Now</button> <a href='https://levelupkatsina.katdict.ng/' target='_blank' className='bg-cobalt px-2 text-white py-2'>www.levelupkatsina.com</a></div>
+             <div className='py-2 flex gap-2 animate-pulse'><button className='font-semibold dark:text-white'>Apply Now</button> <a href='https://levelupkatsina.katdict.ng/' target='_blank' className='bg-cobalt px-2 text-white py-2'>www.levelupkatsina.com</a></div>
           </div>    
               
         </div>

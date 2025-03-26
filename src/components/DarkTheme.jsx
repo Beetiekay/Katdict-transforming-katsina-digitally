@@ -43,9 +43,9 @@ const handleThemeSwitch = ()=> {
       <div>
        <input type='checkbox' className='peer absolute right-16 z-30 opacity-0 cursor-pointer transition-transform w-8 h-6'/>
        <div data-aos="data-zoom-in" className='absolute peer-checked:scale-125 right-16 z-10'><button className='p-2 bg-green rounded-full'><FaCloudSun className='text-white text-sm'/></button></div>
-       <div className='hidden h-0 peer-checked:h-14 duration-700 transition-all ease-out peer-checked:flex'><div  className='w-[0.90%] h-14 bg-green absolute right-[4.8rem] top-2'></div></div>
+       <div className='hidden h-0 peer-checked:h-14 duration-700 transition-all ease-out peer-checked:flex'><div className='w-[0.90%] animate-bounce h-14 bg-green absolute right-[4.8rem] top-5'></div></div>
        <div className='absolute hidden peer-checked:flex top-6 lg:right-6 md:right-6 right-10'>
-        <button onClick={handleThemeSwitch}  className='p-[2px] rounded-2xl bg-green mt-10 text-white outline-none'>
+        <button onClick={handleThemeSwitch} className='p-[2px] rounded-2xl animate-bounce bg-green mt-10 text-white outline-none'>
             {
                 theme === 'light' ? <Darkmode /> : <Lighttoggle/>
             }

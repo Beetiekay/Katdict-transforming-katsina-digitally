@@ -55,7 +55,7 @@ const Welcomeadd = () => {
         
          <div className='w-[100%] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:px-16 md:px-5 px-4 mb-10'>
             {/* 1 */}
-            <div data-aos="flip-up" className='bg-green  rounded-lg shadow-md cursor-pointer'>
+            <div data-aos="flip-up" className='bg-green dark:bg-opacity-65 rounded-lg shadow-md cursor-pointer'>
               <div><button className='px-4 py-6 border-4 hover:scale-110 duration-700 border-white bg-black text-white rounded-lg text-4xl'><FaBookOpen/></button></div>
               <div className='px-4 py-6'>
                 <h1 className='text-2xl font-semibold text-white'>ICT Governance & Strategy</h1>
@@ -65,7 +65,7 @@ const Welcomeadd = () => {
               </div>
             </div>
             {/* 2 */}
-            <div data-aos="flip-up" className='bg-green rounded-lg shadow-md cursor-pointer'>
+            <div data-aos="flip-up" className='bg-green dark:bg-opacity-65 rounded-lg shadow-md cursor-pointer'>
               <div><button className='px-4 py-6 border-4 hover:scale-110 duration-700 border-white bg-black text-white rounded-lg text-4xl'><MdOutlineShoppingCart/></button></div>
               <div className='px-4 py-6'>
                 <h1 className='text-2xl font-semibold text-white'>Needs Asssesments & Procurement</h1>
@@ -75,7 +75,7 @@ const Welcomeadd = () => {
               </div>
             </div>
             {/* 3 */}
-            <div data-aos="flip-up" className='bg-green rounded-lg shadow-md cursor-pointer'>
+            <div data-aos="flip-up" className='bg-green dark:bg-opacity-65 rounded-lg shadow-md cursor-pointer'>
               <div><button className='px-4 py-6 border-4 hover:scale-110 duration-700 border-white bg-black text-white rounded-lg text-4xl'><FaBookOpen/></button></div>
               <div className='px-4 py-6'>
                 <h1 className='text-2xl font-semibold text-white'>Capacity Building & Training</h1>

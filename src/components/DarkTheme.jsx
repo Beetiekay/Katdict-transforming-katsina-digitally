@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { FaLaptop, FaSun } from 'react-icons/fa';
 import Lighttoggle from './Lighttoggle';
 import Darkmode from './Darkmode';
-import arrow from "../assets/arrow.png"
-import darkarrow from "../assets/blackarrow.png"
+import { FaCloudSun } from 'react-icons/fa';
+
 
 const DarkTheme = () => {
 
@@ -43,10 +42,10 @@ const handleThemeSwitch = ()=> {
     <div className='fixed z-20 lg:top-36 md:top-36  top-28 px-6 lg:right-4 md:right-4 -right-5'>
       <div>
        <input type='checkbox' className='peer absolute right-16 z-30 opacity-0 cursor-pointer transition-transform w-8 h-6'/>
-       <div data-aos="data-zoom-in" className='absolute peer-checked:scale-125 right-16 z-10'><button className='p-2 bg-green rounded-full'><FaSun className='text-white text-sm'/></button></div>
+       <div data-aos="data-zoom-in" className='absolute peer-checked:scale-125 right-16 z-10'><button className='p-2 bg-green rounded-full'><FaCloudSun className='text-white text-sm'/></button></div>
        <div className='hidden h-0 peer-checked:h-14 duration-700 transition-all ease-out peer-checked:flex'><div  className='w-[0.90%] h-14 bg-green absolute right-[4.8rem] top-2'></div></div>
-       <div className='absolute hidden peer-checked:flex top-6 right-6'>
-        <button onClick={handleThemeSwitch}  className='p-[2px] rounded-2xl bg-green mt-10 text-white  outline-none'>
+       <div className='absolute hidden peer-checked:flex top-6 lg:right-6 md:right-6 right-10'>
+        <button onClick={handleThemeSwitch}  className='p-[2px] rounded-2xl bg-green mt-10 text-white outline-none'>
             {
                 theme === 'light' ? <Darkmode /> : <Lighttoggle/>
             }

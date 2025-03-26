@@ -8,11 +8,11 @@ import { Link } from 'react-router-dom'
 
 const Wedo = () => {
   return (
-    <div className='py-6 h-[100vh] dark:bg-black'>
+    <div className='py-6 dark:bg-black'>
       {/* cards */}
       <div className='py-2 text-lg flex justify-start lg:px-8 md:px-5 px-4 text-green'><Link to={"/"}>Back</Link></div>
             
-        <div className='w-[100%] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:px-8 md:px-5 px-4 mb-10'>
+        <div className='w-[100%]  dark:bg-black grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 lg:px-8 md:px-5 px-4 mb-10'>
         {/* 1 */}
         <div data-aos="flip-up" className='bg-green dark:bg-opacity-65 rounded-lg shadow-md cursor-pointer'>
                   <div><button className='px-4 py-6 border-4 hover:scale-110 duration-700 border-white bg-black text-white rounded-lg text-4xl'><FaBookOpen/></button></div>

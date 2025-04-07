@@ -22,7 +22,7 @@ export default function App() {
     <BrowserRouter>
     <DarkTheme/>
      <Routes>
-          <Route path="/" element={<Pageload/>}/>
+          <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/focus" element={<Focusarea/>}/>
           <Route path="/recent" element={<Recent/>}/>

@@ -18,7 +18,7 @@ const Focusarea = () => {
      <div className='absolute z-20'><Navigation/></div>
      <div className='min-h-[100vh] lg:mt-56 md:mt-52 mt-40 w-[100%] flex justify-center items-center relative'>
         <div>
-           <h1 data-aos="fade-right" className='lg:text-5xl dark:text-white md:text-4xl text-2xl text-center font-semibold mb-2'>OUR FOCUS <span className='text-green'>AREAS</span></h1> 
+           <h1 className='lg:text-5xl dark:text-white md:text-4xl text-2xl text-center font-semibold mb-2'>OUR FOCUS <span className='text-green'>AREAS</span></h1> 
            <p className='text-lg text-center text-green mb-6'>Empowering Katsina Through ICT</p>
           
            <div>

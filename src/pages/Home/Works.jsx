@@ -10,8 +10,8 @@ const Works = () => {
     <div className='w-[100%] lg:min-h-[100vh] md:min-h-[80vh] relative overflow-hidden min-h-[70vh]'>
       <img src={image6} className='w-full h-screen opacity-15  absolute object-cover'/>
         <div className='reltive'>
-        <p data-aos="fade-right" className=' font-semibold lg:py-4 md:py-4 py-1 pt-16 lg:text-lg dark:text-white md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>SOME OF THE <span className='text-green'>WORKS</span> WE DO </p>
-        <div className='flex justify-center dark:text-white mb-16'><h1 data-aos="fade-up" className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>TO SHAPE THE FUTURE OF<span className='text-green'> KATSINA</span>  TODAY </h1></div>
+        <p className=' font-semibold lg:py-4 md:py-4 py-1 pt-16 lg:text-lg dark:text-white md:text-lg text-sm lg:text-center md:text-center text-start opacity-85'>SOME OF THE <span className='text-green'>WORKS</span> WE DO </p>
+        <div className='flex justify-center dark:text-white mb-16'><h1  className=' lg:text-4xl md:text-4xl text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>TO SHAPE THE FUTURE OF<span className='text-green'> KATSINA</span>  TODAY </h1></div>
 
         <div >
             <div className='py-2 relative flex justify-end lg:px-16 md:px-5 px-0 text-green'><Link to={"/all works"} className=' py-2 px-4'>See All</Link></div>

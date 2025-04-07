@@ -18,8 +18,8 @@ const Tab = () => {
 
   return (
     <div className='bg-whitegray dark:bg-black'>
-         <p data-aos="fade-left" className='font-semibold dark:text-white lg:py-4 md:py-4 py-1 lg:px-0 md:px-0 px-4 pt-16 lg:text-center md:text-center text-start lg:text-lg md:text-lg text-sm opacity-85'>WELCOME TO <span className='text-green'>KATDICT</span></p>
-         <div data-aos="fade-right"  className='flex lg:justify-center md:justify-center justify-start lg:px-0 md:px-0 px-4'><h1 className=' lg:text-4xl md:text-4xl dark:text-white text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>PIONEERING THE <span className='text-green'>DIGITAL TRANSFORMATION</span><br className='lg:flex md:flex hidden'/> KATSINA STATE</h1></div>
+         <p className='font-semibold dark:text-white lg:py-4 md:py-4 py-1 lg:px-0 md:px-0 px-4 pt-16 lg:text-center md:text-center text-start lg:text-lg md:text-lg text-sm opacity-85'>WELCOME TO <span className='text-green'>KATDICT</span></p>
+         <div className='flex lg:justify-center md:justify-center justify-start lg:px-0 md:px-0 px-4'><h1 className=' lg:text-4xl md:text-4xl dark:text-white text-2xl font-semibold lg:text-center md:text-center text-start mb-4'>PIONEERING THE <span className='text-green'>DIGITAL TRANSFORMATION</span><br className='lg:flex md:flex hidden'/> KATSINA STATE</h1></div>
        <div>
         <div className='lg:hidden md:hidden relative top-4 flex justify-end px-10 animate-pulse text-green'><FaArrowRight size={15}/></div>
         <div className="lg:overflow-hidden overflow-x-scroll md:overflow-hidden">

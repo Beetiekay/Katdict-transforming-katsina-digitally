@@ -3,24 +3,25 @@ import Home from '../pages/Home/Home'
 import Divider from './Divider'
 
 const Pageload = () => {
-      const [loading, setloading] = useState(false)
+      const [open, setOpen] = useState(false);
+     
          useEffect(() => {
-         setloading(true)
+         setOpen(true)
+     
          setTimeout(() => {
-          setloading(false)
-         }, 4000)
-    
-         },[])
+         setOpen(false)
+     
+         }, 4000);
+       },[])
   return (
-    <div className='w-[100%] h-[100vh] absolute z-50 bg-white dark:bg-black'>
+    <div >
       <div>
-         {
-            loading ?
-            <div className='w-full fixed'>
+      {
+         open &&(
+            <div className='w-full h-full flex justify-center transition-all dark:bg-black dark:bg-opacity-35 fixed peer-checked:hidden items-center backdrop-blur-sm top-0 z-50 bg-green bg-opacity-50'>
             <Divider/>
             </div>
-             :
-           <Home/>
+         )
          }
       </div>
     </div>

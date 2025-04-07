@@ -16,7 +16,7 @@ const Pageload = () => {
       <div>
          {
             loading ?
-            <div className='w-full'>
+            <div className='w-full fixed'>
             <Divider/>
             </div>
              :

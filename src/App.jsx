@@ -14,6 +14,7 @@ import Kdb from './components/Kdb'
 import Katsinadts from './components/Katsinadts'
 import Agpopup from './components/Agpopup'
 import DarkTheme from './components/DarkTheme'
+import Pageload from './components/Pageload'
 
 
 export default function App() {
@@ -21,7 +22,7 @@ export default function App() {
     <BrowserRouter>
     <DarkTheme/>
      <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Pageload/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/focus" element={<Focusarea/>}/>
           <Route path="/recent" element={<Recent/>}/>
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/levelup" element={<Ktlevelup/>}/>
           <Route path="/hackatsina" element={<Hakck/>}/>
      </Routes>
+      <Pageload/>
      <Agpopup/>
    </BrowserRouter>
   )

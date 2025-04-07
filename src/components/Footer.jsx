@@ -9,6 +9,7 @@ import image2 from "../assets/darkcurve.png";
 //aos
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 import { Link } from 'react-router-dom'
 import ScrollToTop from 'react-scroll-to-top'
 
@@ -49,23 +50,23 @@ const Footer = () => {
                  <div data-aos="zoom-in" className='lg:mb-0 md:mb-0 mb-2 grid grid-cols-1 space-y-2'>
                    <h1 className='lg:text-3xl md:text-3xl text-2xl mb-2 text-white'>Support Links</h1>
 
-                   <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Get Support</Link>
-                   <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Help & FAQ</Link>
-                   <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Solutions</Link>
-                   <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Privacy Policy</Link>
-                   <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Contact Us</Link>
-                   <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Terms & Service</Link>
+                   <a href="https://www.google.com/" blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Get Support</a>
+                   <a href="https://www.google.com/" blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Help & FAQ</a>
+                   <a href="https://www.google.com/" blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Solutions</a>
+                   <a href="https://www.google.com/" blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Privacy Policy</a>
+                   <a href="https://www.google.com/" blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Contact Us</a>
+                   <a href="https://www.google.com/" blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Terms & Service</a>
                  </div>
 
                  <div data-aos="zoom-in" className='lg:mb-0 md:mb-0 mb-2 lg:mt-0 md:mt-0 mt-4 grid grid-cols-1 space-y-2'>
                    <h1 className='lg:text-3xl md:text-3xl text-2xl mb-2 text-white'>Katdict Services</h1>
 
-                     <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>ICT Governance & Strategy</Link>
-                     <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Needs Assessment & Procurement</Link>
-                     <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Capacity Building & Training</Link>
-                     <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Infrastructure Management & Oversight</Link>
-                     <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Innovation & Collaboration</Link>
-                     <Link className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Reporting & Advocacy</Link>
+                     <a href='https://www.google.com/' blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>ICT Governance & Strategy</a>
+                     <a href='https://www.google.com/' blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Needs Assessment & Procurement</a>
+                     <a href='https://www.google.com/' blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Capacity Building & Training</a>
+                     <a href='https://www.google.com/' blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Infrastructure Management & Oversight</a>
+                     <a href='https://www.google.com/' blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Innovation & Collaboration</a>
+                     <a href='https://www.google.com/' blank="_blank" className='text-white font-mono hover:translate-x-5 duration-700 cursor-pointer'>Reporting & Advocacy</a>
                  </div>
                </div>
                <div className='lg:hidden md:hidden flex lg:justify-start md:justify-center justify-center mb-2'><img src={image} data-aos="slide-right" className='lg:w-72 md:w-96 w-full'/></div>

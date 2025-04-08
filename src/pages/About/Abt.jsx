@@ -18,7 +18,7 @@ const Abt = () => {
           <div>
           <h1  className='lg:text-4xl dark:text-white lg:text-black lg:text-center md:text-start  md:text-black text-white md:text-2xl text-xl lg:px-14 md:px-10 px-4 text-start'>About <span className='font-bold lg:opacity-100 md:opacity-100 opacity-60 lg:text-green md:text-green text-black'>KATDICT</span>
           </h1>
-          <div data-aos="zoom-in" className='flex justify-center  hover:translate-y-6'>
+          <div  className='flex justify-center  hover:translate-y-6'>
             <h1 className='lg:w-[50%] md:w-[95%] w-[95%] mb-4 dark:text-white lg:text-center md:text-start text-start  hover:bg-opacity-100  hover:-mt-6 duration-700 ease-in-out lg:text-black md:text-black text-white lg:py-8 md:py-4 py-4 lg:px-4 md:px-4 px-2 rounded-2xl lg:text-lg md:text-lg text-sm'>
             KATDICT is Pioneering the Digital Transformation of Katsina State, our activities cut across providing ICT services to the Government, fostering the growth and development of Technology and Innovation Hubs and making Government services available to the populace.</h1>
           </div>

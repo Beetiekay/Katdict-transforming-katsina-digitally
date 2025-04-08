@@ -28,7 +28,7 @@ const Downlaod = () => {
 
          <div className='flex items-center'>
            <div>
-           <p data-aos="fade-left" className='font-semibold dark:text-white lg:py-4 md:py-4 py-1  pt-16 text-start lg:text-lg md:text-lg text-sm opacity-85'>HOW DO WE <span className='text-green'> WORK?</span></p>
+           <p  className='font-semibold dark:text-white lg:py-4 md:py-4 py-1  pt-16 text-start lg:text-lg md:text-lg text-sm opacity-85'>HOW DO WE <span className='text-green'> WORK?</span></p>
            <div data-aos="fade-right"  className='flex dark:text-white justify-start mb-4'><h1 className=' lg:text-4xl md:text-4xl text-2xl font-semibold text-start mb-4'>DOWNLOAD OUR <span className='text-green'>DIGITAL<br className='lg:flex md:flex hidden'/> TRANSFORMATION STRATEGIC <br className='lg:flex md:flex hidden'/> BLUEPRINT.</span> </h1></div>
             <Button label={"Download Now (2MB)"}/>
         </div>

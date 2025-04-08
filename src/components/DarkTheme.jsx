@@ -39,7 +39,7 @@ const handleThemeSwitch = ()=> {
 };
 
   return (
-    <div className='fixed z-40 lg:top-36 md:top-36  top-28 px-6 lg:right-4 md:right-4 -right-5'>
+    <div className='fixed z-20 lg:top-36 md:top-36  top-28 px-6 lg:right-4 md:right-4 -right-5'>
       <div>
        <input type='checkbox' className='peer absolute right-16 z-40 opacity-0 cursor-pointer transition-transform w-8 h-6'/>
        <div data-aos="data-zoom-in" className='absolute peer-checked:scale-125 right-16 z-10'><button className='p-2 bg-green rounded-full'><FaCloudSun className='text-white text-sm'/></button></div>

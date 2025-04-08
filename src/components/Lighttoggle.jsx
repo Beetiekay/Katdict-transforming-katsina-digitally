@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaCloudMoon } from 'react-icons/fa'
+//aos
+import AOS from 'aos'
+import "aos/dist/aos.css"
 
 const Lighttoggle = () => {
+
+   useEffect(() => {
+        AOS.init({duration:1200})
+     }) 
+
   return (
      <div className='flex items-center  overflow-hidden bg-opacity-75 bg-white py-[2px] px-[2px] gap-[2px] rounded-3xl'>
            <p data-aos="fade-left" className='text-green font-semibold text-xs px-1'>Lightmode</p>

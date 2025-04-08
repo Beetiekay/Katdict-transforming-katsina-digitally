@@ -26,7 +26,7 @@ const Visionandmissions = () => {
         </div>
 
         {/* contents */}
-        <div className='grid lg:h-fit md:h-[40vh] h-[90vh] lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 px-8 mb-5'>
+        <div className='grid lg:h-fit md:h-[90vh] h-[90vh] lg:grid-cols-2 grid-cols-1 gap-4 px-8 mb-5'>
           <div><img src={image} data-aos="zoom-out"/></div> 
           <div className='flex hover:scale-110 duration-500 lg:items-center md:items-start items-start h-[100vh]'>
             <div data-aos="fade-left" className='lg:text-2xl  cursor-pointer md:text-2xl text-lg py-16 bg-green text-white bg-opacity-75 rounded-2xl'>
@@ -47,8 +47,8 @@ const Visionandmissions = () => {
         <div className='grid lg:h-fit md:h-[60vh] h-[90vh] lg:grid-cols-2 md:grid-cols-1 grid-cols-1 gap-4 px-8 mb-5'>
         <div><img src={image2} data-aos="zoom-in" className='rounded-2xl object-cover h-full'/></div>
           <div className='flex items-center '>
-          <div className='lg:text-2xl lg:mt-0 md:mt-0 -mt-10 hover:scale-110 duration-500 cursor-pointer bg-opacity-80 bg-green py-10 px-4 rounded-2xl text-white md:text-xl text-lg'>
-            <h1 data-aos="fade-up">Our mission is to elevate government services, invigorate the economy, and enrich the quality of life in our community, through a blend of innovation and collaboration, to build a sustainable future where technology is a catalyst for positive change</h1>
+          <div className='lg:text-2xl lg:mt-0 md:mt-0 -mt-10 hover:scale-110 duration-500 cursor-pointer bg-opacity-80 bg-green py-10 px-4  rounded-2xl text-white md:text-xl text-lg'>
+            <h1 data-aos="fade-up" >Our mission is to elevate government services, invigorate the economy, and enrich the quality of life in our community, through a blend of innovation and collaboration, to build a sustainable future where technology is a catalyst for positive change</h1>
             </div>
           </div>
         </div>

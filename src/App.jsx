@@ -15,6 +15,8 @@ import Katsinadts from './components/Katsinadts'
 import Agpopup from './components/Agpopup'
 import DarkTheme from './components/DarkTheme'
 import Pageload from './components/Pageload'
+import API from './components/Api'
+import Autoslide from './components/Autoslide'
 
 
 export default function App() {
@@ -34,6 +36,8 @@ export default function App() {
           <Route path="/kdb" element={<Kdb/>}/>
           <Route path="/levelup" element={<Ktlevelup/>}/>
           <Route path="/hackatsina" element={<Hakck/>}/>
+          <Route path="/imageslider" element={<Autoslide/>}/>
+          <Route path="/sample" element={<API/>}/>
      </Routes>
       <Pageload/>
      <Agpopup/>

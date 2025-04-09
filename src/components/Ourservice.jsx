@@ -1,8 +1,8 @@
 import React from 'react'
 import Servicec from '../pages/Home/Servicec'
-import image1 from "../assets/ana1.jpg"
-import image2 from "../assets/ana2.jpg"
-import image3 from "../assets/ana3.jpg"
+import image1 from "../assets/robotic1.jpg"
+import image2 from "../assets/robotic2.jpg"
+import image3 from "../assets/robotic3.jpg"
 import Works from '../pages/Home/Works'
 import Upadate from '../pages/Home/Upadate'
 

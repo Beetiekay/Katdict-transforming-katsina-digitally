@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/material": "^5.16.4",
     "aos": "^2.3.4",
+    "axios": "^1.7.9",
     "chart.js": "^4.4.3",
     "classnames": "^2.5.1",
     "primereact": "^10.7.0",
@@ -28,6 +29,7 @@
     "react-multi-carousel": "^2.8.5",
     "react-router-dom": "^6.21.0",
     "react-scroll-to-top": "^3.0.0",
+    "react-slideshow-image": "^4.3.2",
     "react-tabs": "^6.0.2",
     "recharts": "^2.12.7"
   },

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Logo from './Logo'
 import katdict from '../assets/kat2.png'
-import { FaFacebook, FaInstagram,FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaFacebookSquare, FaInstagram,FaLinkedin, FaTwitter } from 'react-icons/fa'
 import bg from "../assets/layerbg.png"
 import image from "../assets/kat.png";
 import image2 from "../assets/darkcurve.png";
@@ -10,7 +10,6 @@ import image2 from "../assets/darkcurve.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { Link } from 'react-router-dom'
 import ScrollToTop from 'react-scroll-to-top'
 
 const Footer = () => {
@@ -32,11 +31,11 @@ const Footer = () => {
                 <div data-aos="zoom-in"><Logo/></div>
                   <div >
                     <h1 data-aos="zoom-in" className='text-lg font-semibold text-white opacity-80 mb-2'>Follow Us</h1>
-                    <div className='flex gap-2 text-white opacity-80'>
-                        <a href='https://www.instagram.com/katdict?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target='_blank'><FaInstagram size={25} data-aos="zoom-in"  className='hover:scale-110 duration-700 cursor-pointer'/></a>
-                        <a href='https://www.facebook.com/katdict/reviews' target='_blank'><FaFacebook size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/></a>
-                        <a href='https://www.tiktok.com/@katdict?fbclid=IwY2xjawJFEpJleHRuA2FlbQIxMAABHTEJYFQCw6WRjL7xkQ-Nw4ApTDpqlqWjR-cbpVog_BULZDCfvbr1I1QweQ_aem_TgjOtn5otGKht-cao7e-HA' target='_blank'><FaLinkedin size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/></a>
-                        <a href='https://x.com/katdict?fbclid=IwY2xjawJFEytleHRuA2FlbQIxMAABHULDOGQ9apz3Nj1gnyH-3ufG2we-2qJDp2LDhHSgh0XA0qKcDIQcZeon6Q_aem_aSluChISL6PmH1Qi90qErA' target='_blank'><FaTwitter size={25} data-aos="zoom-in" className='hover:scale-110 duration-700 cursor-pointer'/></a>
+                    <div className='flex items-center gap-2 text-white opacity-80'>
+                        <a href='https://www.instagram.com/katdict?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' target='_blank'  className='hover:scale-125 duration-700'><FaInstagram size={25} data-aos="zoom-in"  className=' duration-700 cursor-pointer'/></a>
+                        <a href='https://www.facebook.com/katdict/reviews' target='_blank' className='hover:scale-125 duration-700'><FaFacebookSquare size={25} data-aos="zoom-in" className=' duration-700 cursor-pointer'/></a>
+                        <a href='https://x.com/katdict?fbclid=IwY2xjawJFEytleHRuA2FlbQIxMAABHULDOGQ9apz3Nj1gnyH-3ufG2we-2qJDp2LDhHSgh0XA0qKcDIQcZeon6Q_aem_aSluChISL6PmH1Qi90qErA' target='_blank'  className='hover:scale-125 duration-700'><p data-aos="zoom-in" className='flex items-center font-mono duration-700 cursor-pointer text-2xl font-bold'>X</p></a>
+                        <a href='https://www.tiktok.com/@katdict?fbclid=IwY2xjawJFEpJleHRuA2FlbQIxMAABHTEJYFQCw6WRjL7xkQ-Nw4ApTDpqlqWjR-cbpVog_BULZDCfvbr1I1QweQ_aem_TgjOtn5otGKht-cao7e-HA' target='_blank'  className='hover:scale-125 duration-700'><FaLinkedin size={25} data-aos="zoom-in" className=' duration-700 cursor-pointer'/></a>
                     </div>
                     </div>
                 </div>
